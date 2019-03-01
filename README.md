@@ -196,9 +196,13 @@ This should be considered a draft and likely has mis-assemblies, inaccurate cons
 
 # Notes on downloading files.
 
-Files are generously hosted by Amazon Web Services. Although available as straight-forward HTTP links, download performance is improved by using the Amazon Web Services <a href="https://aws.amazon.com/cli/">command-line interface</a>. References should be amended to use the `s3://` addressing scheme, i.e. replace `https://s3.amazon.com/nanopore-human-wgs/` with `s3://nanopore-human-wgs` to download. For example, to download `rel3-nanopore-wgs-288418386-FAB39088` to the current working directory use the following command.
+Files are generously hosted by Amazon Web Services. Although available as straight-forward HTTP links, download performance is improved by using the Amazon Web Services <a href="https://aws.amazon.com/cli/">command-line interface</a>. References should be amended to use the `s3://` addressing scheme, i.e. replace `https://s3.amazon.com/nanopore-human-wgs/` with `s3://nanopore-human-wgs` to download. For example, to download `CHM13_prep5_S13_L002_I1_001.fastq.gz` to the current working directory use the following command.
 
-    aws s3 cp s3://nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_I1_001.fastq.gz .
+    aws s3 --no-sign-request cp s3://nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_I1_001.fastq.gz .
+
+or to download the full dataset use the following command.
+
+    aws s3 --no-sign-request sync s3://nanopore-human-wgs/chm13/ .
 
 Amending the `max_concurrent_requests` etc. settings as per <a href="https://docs.aws.amazon.com/cli/latest/topic/s3-config.html">this guide</a> will improve download performance further.
 
