@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We have sequenced the CHM13hTERT human cell line on the [Oxford Nanopore GridION](https://nanoporetech.com/products/gridion) using 1D ligation kits (450 bp/s) using R9.4 chemistry (FLO-MIN106). We have also sequenced approximately 50x coverage using <a href="https://www.10xgenomics.com">:10X genomics</a> as well as <a href="https://bionanogenomics.com/technology/dls-technology/">BioNano DLS</a> and <a href="https://arimagenomics.com/kit/">Arima Genomics</a> HiC.
+We have sequenced the CHM13hTERT human cell line on the [Oxford Nanopore GridION](https://nanoporetech.com/products/gridion) using 1D ligation kits (450 bp/s) using R9.4 chemistry (FLO-MIN106). We have also sequenced approximately 50x coverage using <a href="https://www.10xgenomics.com">10X genomics</a> as well as <a href="https://bionanogenomics.com/technology/dls-technology/">BioNano DLS</a> and <a href="https://arimagenomics.com/kit/">Arima Genomics</a> HiC.
 
 Human genomic DNA was extracted from the cultured cell line - "cells".  As the DNA is native, modified bases will be preserved. We followed the [ultra-long read (UL)  protocol](https://www.protocols.io/view/ultra-long-read-sequencing-protocol-for-rad004-mrxc57n).
 
@@ -16,31 +16,28 @@ We sequenced approximately 100 flowcells of UL data for a total of 155 Gbp (50x 
 
 ### rel2 (genomic DNA)
 
-rel2 is the same data as rel1 but recalled with the latest generation callers (Guppy flip-flop 2.3.1). We have provided mappings both to our current draft assembly and to the <a href="http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">=GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
-
-<!--
+rel2 is the same data as rel1 but recalled with the latest generation callers (Guppy flip-flop 2.3.1). We have provided mappings both to our current draft assembly <!-- and to the <a href="http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a>--> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
 
 #### Downloads
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1)</a>
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.4.cram">Guppy flip-flop mapped to asm v0.4 with minimap2</a>
+<!--
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a>
 -->
-
 ### rel1 (genomic DNA)
 
 The full dataset as of 2019/01/09. These basecalls were generated on-instrument and use older versions of Guppy (depending on when the flowcell ran on the instrument). 
 
-<!--
 #### Downloads
 
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1.fastq.gz">Guppy on-instrument</a>
--->
 
 ### fast5 data
 
 The raw fast5 data, without basecalls, is available for completeness. The data is grouped into 96 sets.
 
+<!--
 #### Downloads
 
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition001.tgz">Partition 001</a>
@@ -139,6 +136,7 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition094.tgz">Partition 094</a>
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition095.tgz">Partition 095</a>
    - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition096.tgz">Partition 096</a>
+-->
 
 ## 10X Genomics Data
 ### Raw fastq files
@@ -147,18 +145,18 @@ Approximately 50x of data was generated on a NovaSeq instrument. Based on the su
 
 #### Downloads
 
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_I1_001.fastq.gz">CHM13_prep5_S13_L002_I1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_R1_001.fastq.gz">CHM13_prep5_S13_L002_R1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_R2_001.fastq.gz">CHM13_prep5_S13_L002_R2_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_I1_001.fastq.gz">CHM13_prep5_S14_L002_I1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_R1_001.fastq.gz">CHM13_prep5_S14_L002_R1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_R2_001.fastq.gz">CHM13_prep5_S14_L002_R2_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_I1_001.fastq.gz">CHM13_prep5_S15_L002_I1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_R1_001.fastq.gz">CHM13_prep5_S15_L002_R1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_R2_001.fastq.gz">CHM13_prep5_S15_L002_R2_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_I1_001.fastq.gz">CHM13_prep5_S16_L002_I1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_R1_001.fastq.gz">CHM13_prep5_S16_L002_R1_001</a>
-   - <a href="https://s3.awsamazon.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_R2_001.fastq.gz">CHM13_prep5_S16_L002_R2_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_I1_001.fastq.gz">CHM13_prep5_S13_L002_I1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_R1_001.fastq.gz">CHM13_prep5_S13_L002_R1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S13_L002_R2_001.fastq.gz">CHM13_prep5_S13_L002_R2_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_I1_001.fastq.gz">CHM13_prep5_S14_L002_I1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_R1_001.fastq.gz">CHM13_prep5_S14_L002_R1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S14_L002_R2_001.fastq.gz">CHM13_prep5_S14_L002_R2_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_I1_001.fastq.gz">CHM13_prep5_S15_L002_I1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_R1_001.fastq.gz">CHM13_prep5_S15_L002_R1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S15_L002_R2_001.fastq.gz">CHM13_prep5_S15_L002_R2_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_I1_001.fastq.gz">CHM13_prep5_S16_L002_I1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_R1_001.fastq.gz">CHM13_prep5_S16_L002_R1_001</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/CHM13_prep5_S16_L002_R2_001.fastq.gz">CHM13_prep5_S16_L002_R2_001</a>
 
 ### Supernova assembly
 
@@ -166,8 +164,8 @@ Supernova v2.1.1 was used for assembly. The assembly is 2.95 Gbp in size with 16
 
 #### Downloads
 
-   - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/supernova/CHM13_pseudohap1.fasta.gz">Pseudohap 1</a>
-   - <a href="http://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/supernova/CHM13_pseudohap2.fasta.gz">Pseudohap 2</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/supernova/CHM13_pseudohap.1.fasta.gz">Pseudohap 1</a>
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/10x/supernova/CHM13_pseudohap.2.fasta.gz">Pseudohap 2</a>
 
 ## BioNano DLS Data
 
@@ -188,7 +186,7 @@ The PacBio data was previously generated and is available from the <a href="http
 
 # Assembly
 
-The current assembly draft (v0.4) is generated with (Canu v1.7.1)[https://github.com/marbl/canu] including rel1 data up to 2018/11/15 and incorporating previously released [PacBio](https://www.pacb.com) data. Two gaps on the X plus the centromere were manually resolved. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). [BioNano](https://bionanogenomics.com) structural variants on the X were identified, locally mapping nanopore reads selected, reassembled, and used to patch the assembly. However, these patches are not yet polished or validated using BioNano. The assembly has not been curated outside of the X chromosome. The estimated base accuracy is QV36.
+The current assembly draft (v0.4) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating previously released [PacBio](https://www.pacb.com) data. Two gaps on the X plus the centromere were manually resolved. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). [BioNano](https://bionanogenomics.com) structural variants on the X were identified, locally mapping nanopore reads selected, reassembled, and used to patch the assembly. However, these patches are not yet polished or validated using BioNano. The assembly has not been curated outside of the X chromosome. The estimated base accuracy is QV36.
 
 The assembly is 2.94 Gbp in size with 657 contigs and an NG50 of 85.8 Mbp
 
