@@ -29,15 +29,14 @@ We sequenced approximately 100 flowcells of UL data for a total of 155 Gbp (50x 
 
 ### rel2 (genomic DNA)
 
-rel2 is the same data as rel1 but recalled with the latest generation callers (Guppy flip-flop 2.3.1). We have provided mappings both to our current draft assembly <!-- and to the <a href="https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a>--> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
+rel2 is the same data as rel1 but recalled with the latest generation callers (Guppy flip-flop 2.3.1). We have provided mappings both to our current draft assembly and to the <a href="https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
 
 #### Downloads
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 26s7e3f4ded02d500a3db0c76c84cdc42b9)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.4.cram">Guppy flip-flop mapped to asm v0.4 with minimap2</a> (md5: 09d87ae044d1628056cb95690dc93378)
-<!--
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a>
--->
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: 1a4888cafbc935a21c17f449b4802438)
+
 ### rel1 (genomic DNA)
 
 The full dataset as of 2019/01/09. These basecalls were generated on-instrument and use older versions of Guppy (depending on when the flowcell ran on the instrument).
