@@ -8,7 +8,7 @@ Human genomic DNA was extracted from the cultured cell line. As the DNA is nativ
 
 # Data reuse and license
 
-All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "telomere-to-telomere" (T2T) consortium for the creation of this data and encourage you to join us if you would like to help finish the human reference genome. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
+All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "telomere-to-telomere" (T2T) consortium for the creation of this data and encourage you to join us if you would like to help finish the human reference genome. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
 # Draft Assembly
 
