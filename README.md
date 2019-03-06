@@ -33,7 +33,7 @@ rel2 is the same data as rel1 but recalled with the latest generation callers (G
 
 #### Downloads
 
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 26s7e3f4ded02d500a3db0c76c84cdc42b9)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 7e3f4ded02d500a3db0c76c84cdc42b9)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.4.cram">Guppy flip-flop mapped to asm v0.4 with minimap2</a> (md5: 09d87ae044d1628056cb95690dc93378)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: 1a4888cafbc935a21c17f449b4802438)
 
