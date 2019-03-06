@@ -196,6 +196,16 @@ or to download the full dataset use the following command.
 
     aws s3 --no-sign-request sync s3://nanopore-human-wgs/chm13/ .
 
+The s3 command can also be used to get information on the dataset, for example reporting the size of every file in human-readable format.
+
+    aws s3 --no-sign-request ls --recursive --human-readable --summarize s3://nanopore-human-wgs/chm13/ 
+
+or to obtain technology-specific sizes.
+
+    aws s3 --no-sign-request ls --recursive --human-readable --summarize s3://nanopore-human-wgs/chm13/nanopore/fast5
+    aws s3 --no-sign-request ls --recursive --human-readable --summarize s3://nanopore-human-wgs/chm13/nanopore/rel2
+    aws s3 --no-sign-request ls --recursive --human-readable --summarize s3://nanopore-human-wgs/chm13/assemblies
+
 Amending the `max_concurrent_requests` etc. settings as per <a href="https://docs.aws.amazon.com/cli/latest/topic/s3-config.html">this guide</a> will improve download performance further.
 
 # Contact
