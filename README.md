@@ -12,14 +12,15 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 # Draft Assembly
 
-The current assembly draft (v0.4) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The estimated base accuracy is currently QV36, which we expect to improve with future integration of the 10X Genomics data. BioNano structural variants on the X were identified, locally mapping nanopore reads selected, reassembled, and used to patch the assembly. However, these patches are not yet polished or validated using BioNano. The assembly has not been curated outside of the X chromosome.
+The current assembly draft (v0.6) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. The estimated median QV (based on [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59)) is Q37.4 and the assembly resolves over 80% of the bacs (275/341).
 
-The assembly is 2.94 Gbp in size with 657 contigs and an NG50 of 85.8 Mbp
+The assembly is 2.94 Gbp in size with 503 scaffolds (593 contigs) and an NG50 of 83 Mbp (70 Mbp)
 
-This should be considered a draft and likely has mis-assemblies, inaccurate consensus, and frame-shifted genes. It will be further validated, scaffolded with BioNano, and polished using the available data.
+Outside of the X, this should be considered a draft and likely has mis-assemblies. We will continue to update releases as we validate/fix the assembly.
 
 ### Downloads
 
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
 
 # Sequencing Data
@@ -34,6 +35,7 @@ rel2 is the same data as rel1 but recalled with the latest generation callers (G
 #### Downloads
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 7e3f4ded02d500a3db0c76c84cdc42b9)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/asm.contigs.fasta.gz">Canu rel2 assembly (no curation or polishing)</a> (md5: 778ec406528e153e9b0cb74b4a4caade)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.4.cram">Guppy flip-flop mapped to asm v0.4 with minimap2</a> (md5: 09d87ae044d1628056cb95690dc93378)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: 1a4888cafbc935a21c17f449b4802438)
 
@@ -215,3 +217,4 @@ Please raise issues on this Github repository concerning this dataset.
 # History
 
     * rel1 and 2: 2nd March 2019. Initial release.
+    * asm v0.6 and canu rel2 assembly: 28th May 2019. Assembly update.
