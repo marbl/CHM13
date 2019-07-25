@@ -179,9 +179,16 @@ Approximately 430x of data was generated using the Saphyr instrument and the DLE
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/bionano/chm13_Saphyr_DLE1.bnx.gz">BNX</a> (md5: 59a7a5583e900e1e5cecb08a34b5b0dc)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/bionano/chm13_Saphyr_DLE1.cmap.gz">CMAP</a> (md5: cf1a6fbcf006a26673499b9297664fdb)
 
-## HiC Data
+## Hi-C Data
 
-The HiC raw data will be available soon.
+A library was generated using an Arima genomics kit and sequenced to approximately 40x on an Illumina HiSeq X.
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep1_lane1_R1.fastq.gz">CHM13.rep1_lane1_R1.fastq.gz</a> (md5: 41d2f26eb1f958723e28e32ca471b680)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep1_lane1_R2.fastq.gz">CHM13.rep1_lane1_R2.fastq.gz</a> (md5: 2747aaf1d128182bcaa151098e0abe74)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep2_lane1_R1.fastq.gz">CHM13.rep2_lane1_R1.fastq.gz</a> (md5: 26ce58141bb25b4931512ec4cf176f64)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep2_lane1_R2.fastq.gz">CHM13.rep2_lane1_R2.fastq.gz</a> (md5: 77b71bd1067c6e4e908a9aaa05f4bd73)
 
 ## Previously generated PacBio data
 
@@ -218,3 +225,5 @@ Please raise issues on this Github repository concerning this dataset.
 
     * rel1 and 2: 2nd March 2019. Initial release.
     * asm v0.6 and canu rel2 assembly: 28th May 2019. Assembly update.
+    * Hi-C data added: 25th July 2019. Data update.
+    
