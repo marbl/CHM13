@@ -192,7 +192,7 @@ A library was generated using an Arima genomics kit and sequenced to approximate
 
 ## Previously generated PacBio data
 
-The PacBio data was previously generated and is available from the <a href="https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=269593">SRA</a>
+The PacBio data was previously generated and is available from the <a href="https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=269593">SRA</a>. The list of P6-C4 cells used for arrow polishing are listed <a href="https://raw.githubusercontent.com/nanopore-wgs-consortium/CHM13/master/pbP6Cells">here</a>
 
 
 # Notes on downloading files.
