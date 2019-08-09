@@ -20,7 +20,9 @@ Outside of the X, this should be considered a draft and likely has mis-assemblie
 
 ### Downloads
 
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.6.fasta.gz">Chromosome X v0.6</a> (md5: 8ebdf7db08e2aa7174948a1dc6fac47d)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.6_chrX.filtered.bam">Chromosome X v0.6 unique k-mer anchored mappings</a> (md5: 38d05d0ac8019d0cc48d7ae3188b309c)
+- <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)   
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
 
 # Sequencing Data
