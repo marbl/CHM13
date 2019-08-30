@@ -38,7 +38,8 @@ rel2 is the same data as rel1 but recalled with the latest generation callers (G
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 7e3f4ded02d500a3db0c76c84cdc42b9)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/asm.contigs.fasta.gz">Canu rel2 assembly (no curation or polishing)</a> (md5: 778ec406528e153e9b0cb74b4a4caade)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.4.cram">Guppy flip-flop mapped to asm v0.4 with minimap2</a> (md5: 09d87ae044d1628056cb95690dc93378)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.6.cram">Guppy flip-flop mapped to asm v0.6 with minimap2</a> (md5: 20afc508915207c5082e6f3c427739d2)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_v0.6.cram.crai">Index of above mappings</a> (md5: f5fc80a5114579b4c69eb411f7c09b2b)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: 1a4888cafbc935a21c17f449b4802438)
 
 ### rel1 (genomic DNA)
@@ -228,4 +229,5 @@ Please raise issues on this Github repository concerning this dataset.
     * rel1 and 2: 2nd March 2019. Initial release.
     * asm v0.6 and canu rel2 assembly: 28th May 2019. Assembly update.
     * Hi-C data added: 25th July 2019. Data update.
+    * asm v0.6 alignments of rel2 added: 30th Aug 2019. Data Update
     
