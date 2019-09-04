@@ -10,6 +10,9 @@ Human genomic DNA was extracted from the cultured cell line. As the DNA is nativ
 
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "telomere-to-telomere" (T2T) consortium for the creation of this data and encourage you to join us if you would like to help finish the human reference genome. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
+## Citation:
+Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://doi.org/10.1101/735928). bioRxiv, 2019.
+
 # Draft Assembly
 
 The current assembly draft (v0.6) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. We [validated](https://github.com/skoren/bacValidation) the assembly using [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59). The overall QV is Q37 (Q42 in unique regions) and the assembly resolves over 80% of the bacs (280/341).
