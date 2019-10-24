@@ -15,16 +15,17 @@ Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X ch
 
 # Draft Assembly
 
-The current assembly draft (v0.6) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. We [validated](https://github.com/skoren/bacValidation) the assembly using [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59). The overall QV is Q37 (Q42 in unique regions) and the assembly resolves over 80% of the bacs (280/341).
+The current assembly draft (v0.7) is generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. We [validated](https://github.com/skoren/bacValidation) the assembly using [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59). The overall QV is Q37 (Q42 in unique regions) and the assembly resolves over 80% of the bacs (280/341).
 
-The assembly is 2.94 Gbp in size with 503 scaffolds (593 contigs) and an NG50 of 83 Mbp (70 Mbp)
+The assembly is 2.94 Gbp in size with 359 scaffolds (448 contigs) and an NG50 of 83 Mbp (70 Mbp)
 
-Outside of the X, this should be considered a draft and likely has mis-assemblies. We will continue to update releases as we validate/fix the assembly. Unpolished Canu assemblies are available below for each data release and may be a more suitable basis for the structural analysis of other chromosomes, but will have a lower consensus accuracy.
+Outside of the X, this should be considered a draft and likely has mis-assemblies. We will continue to update releases as we validate/fix the assembly. Unpolished assemblies are available below for each data release and may be a more suitable basis for the structural analysis of other chromosomes, but will have a lower consensus accuracy.
 
 ### Downloads
 
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.6.fasta.gz">Chromosome X v0.6</a> (md5: 8ebdf7db08e2aa7174948a1dc6fac47d)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.6_chrX.filtered.bam">Chromosome X v0.6 unique k-mer anchored mappings</a> (md5: 38d05d0ac8019d0cc48d7ae3188b309c)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.fasta.gz">Chromosome X v0.7</a> (md5: 89b3dd61db66177dd830527b920956fa)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> (md5: b9777540aaa0251c7dbb4974fb0a69d6)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)   
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
 
@@ -37,13 +38,14 @@ Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which 
 
 ### rel3 (genomic DNA)
 
-rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.1.5 with the HAC model. We have provided mappings both to our current draft assembly and to the <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
+rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.1.5 with the HAC model. We have provided mappings both to our current draft assembly and to the <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>. Read ids broken out by sequencing location are available for <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/uwashington.ids.gz">UW"</a>, and <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
 
 #### Downloads
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3.fastq.gz">Guppy flip-flop 3.1.5</a> (md5: 92026d97a898c2f5b65074048a1caabf)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/asm.contigs.fasta.gz">Canu v1.8 rel3 assembly (w/o UCDavis data, no curation or polishing, resolves 310 BACs at Q20)</a> (md5: de329f0daf04ef1963409bc5b703c2cb)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_v0.6.cram">Guppy flip-flop mapped to asm v0.6 with minimap2</a> (md5: 7a2870ca6a096b0f4527d9ff9772a09e)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/canu.contigs.fasta.gz">Canu v1.9 rel3 assembly (no curation or polishing, resolves 314 BACs at Q24)</a> (md5: a05a864eb90578f0fe36e0d774395075)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/flye.contigs.fasta.gz">Flye v2.5 rel3 assembly (no curation or polishing, resolves 253 BACs at Q22)</a> (md5: 80428824ecc3ec41cde9301aa3a986d0)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_v0.7.cram">Guppy flip-flop mapped to asm v0.7 with minimap2</a> (md5: 02b8966c447f2cc9dc1ae211930fd4e3)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: a18c3c9e9f3fa638ff348ebba0f883da)
 
 ### rel2 (genomic DNA)
@@ -382,4 +384,4 @@ Please raise issues on this Github repository concerning this dataset.
     * Hi-C data added: 25th July 2019. Data update.
     * asm v0.6 alignments of rel2 added: 30th Aug 2019. Data Update
     * rel3: 16th Sept 2019. Data update.
-    
+    * chrX v0.7, canu 1.9 and flye 2.5 rel3 assembly: 24th Oct 2019. Assembly update.
