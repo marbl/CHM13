@@ -45,6 +45,7 @@ rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3.fastq.gz">Guppy flip-flop 3.1.5</a> (md5: 92026d97a898c2f5b65074048a1caabf)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/canu.contigs.fasta.gz">Canu v1.9 rel3 assembly (no curation or polishing, resolves 314 BACs at Q24)</a> (md5: a05a864eb90578f0fe36e0d774395075)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/flye.contigs.fasta.gz">Flye v2.5 rel3 assembly (no curation or polishing, resolves 253 BACs at Q22)</a> (md5: 80428824ecc3ec41cde9301aa3a986d0)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/shasta.contigs.fasta.gz">Shasta rel3 assembly (no curation or polishing, resolves 176 BACs at Q28)</a> (md5: 4da86a6b4af5fa5c35407d7cf39c1bac)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_v0.7.cram">Guppy flip-flop mapped to asm v0.7 with minimap2</a> (md5: 02b8966c447f2cc9dc1ae211930fd4e3)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: a18c3c9e9f3fa638ff348ebba0f883da)
 
@@ -385,3 +386,4 @@ Please raise issues on this Github repository concerning this dataset.
     * asm v0.6 alignments of rel2 added: 30th Aug 2019. Data Update
     * rel3: 16th Sept 2019. Data update.
     * chrX v0.7, canu 1.9 and flye 2.5 rel3 assembly: 24th Oct 2019. Assembly update.
+    * shasta rel3 assembly: 20th Dec 2019. Assembly update.
