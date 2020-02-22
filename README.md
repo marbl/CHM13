@@ -25,6 +25,8 @@ Outside of the X, this should be considered a draft and likely has mis-assemblie
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.fasta.gz">Chromosome X v0.7</a> (md5: 89b3dd61db66177dd830527b920956fa)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chr8_v3.fasta.gz">Chromosome 8 v3</a> (md5: 7194793c7fc0296749f226d2cd6a9c76)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_chr8_v3.filtered.bam">Chromosome 8 v3 unique k-mer anchored mappings</a> (md5: 6b3be07cbef7a9b04bde83b91cfe764d)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> (md5: b9777540aaa0251c7dbb4974fb0a69d6)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)   
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
@@ -35,6 +37,14 @@ Outside of the X, this should be considered a draft and likely has mis-assemblie
 We sequenced a total of 367 Gbp of data (118x coverage). The read N50 is 53 kbp and there are 193 Gbp bases in reads >50 kbp (62x). The longest full-length mapping read is 1.3 Mbp.
 
 Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 80 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 38 Gbp (12x, 0.5 Gbp/flowcell). The read N50 is 130 kbp and there are 30 Gbp of data in reads >50 kbp (10x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
+
+### rel4 (genomic DNA)
+
+rel4 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.4.5 with the HAC model. 
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel4/rel4.fastq.gz">Guppy flip-flop 3.4.5</a> (md5: dad0b6caa4a2b03f57387c1bd8107b2f)
 
 ### rel3 (genomic DNA)
 
@@ -387,3 +397,4 @@ Please raise issues on this Github repository concerning this dataset.
     * rel3: 16th Sept 2019. Data update.
     * chrX v0.7, canu 1.9 and flye 2.5 rel3 assembly: 24th Oct 2019. Assembly update.
     * shasta rel3 assembly: 20th Dec 2019. Assembly update.
+    * chr8 v3, rel4 data: 21 Feb 2020. Data and assembly update.
