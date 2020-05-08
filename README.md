@@ -24,11 +24,11 @@ Outside of the X, this should be considered a draft and likely has mis-assemblie
 ### Downloads
 
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.fasta.gz">Chromosome X v0.7</a> (md5: 89b3dd61db66177dd830527b920956fa)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/pacbioHiFi.bam">Chromosome X v0.7 rel1 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/pacbioCLR.bam">Chromosome X v0.7 PacBio HiFi unique k-mer anchored mappings</a> (md5: bd22daaf6d4a2cd775f109a853a911a9)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 PacBio CLR unique k-mer anchored mappings</a> (md5: 69be7bd105ee590bf57853c249e1f8d8)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 Nanopore rel1 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioHiFi.bam">Chromosome X v0.7 PacBio HiFi unique k-mer anchored mappings</a> (md5: bd22daaf6d4a2cd775f109a853a911a9)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioCLR.bam">Chromosome X v0.7 PacBio CLR unique k-mer anchored mappings</a> (md5: 69be7bd105ee590bf57853c249e1f8d8)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chr8_v3.fasta.gz">Chromosome 8 v3</a> (md5: 7194793c7fc0296749f226d2cd6a9c76)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_chr8_v3.filtered.bam">Chromosome 8 v3 rel3 unique k-mer anchored mappings</a> (md5: 6b3be07cbef7a9b04bde83b91cfe764d)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_chr8_v3.filtered.bam">Chromosome 8 v3 Nanopore rel3 unique k-mer anchored mappings</a> (md5: 6b3be07cbef7a9b04bde83b91cfe764d)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> (md5: b9777540aaa0251c7dbb4974fb0a69d6)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)   
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
