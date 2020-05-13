@@ -89,6 +89,7 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - Partitions 99-144 were sequenced at [NHGRI](https://www.nisc.nih.gov)
    - Partitions 145-224 were sequenced at [University of Washington](https://eichlerlab.gs.washington.edu/index.html)
    - Partitions 225-226 were sequenced at [UC Davis](https://dnatech.genomecenter.ucdavis.edu)
+   - Partitions 227-231 were sequenced at [NHGRI](https://www.nisc.nih.gov)
 
    - Note that when the tgz were groupped and uploaded, some inadvertently included more than a single partition. These are denoted as partition ranges in the downloads (e.g. 145-149). 
 
@@ -116,14 +117,14 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition020.tgz">Partition 020</a> (md5: ca0729b28cd4cccc81eba670c6e86689)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition021.tgz">Partition 021</a> (md5: 51a873a2019f2b091ab035cc3f074bb8)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition022.tgz">Partition 022</a> (md5: e9235f052d651b4ba1fdaaa06ad134d0)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition023.tgz">Partition 023</a> (md5: 75ebfdb40745d667962a19a0aa838837)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition023.tgz">Partition 023</a> (md5: 82735ac6bde6dd3064ed23ec89befbe5)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition024.tgz">Partition 024</a> (md5: e1e05425f9823e50650bd2cf1efa41c6)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition025.tgz">Partition 025</a> (md5: f8efb23a5e77b12f46bce73b2ddba36a)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition026.tgz">Partition 026</a> (md5: 829f32786514b092da9e4fb8701da037)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition027.tgz">Partition 027</a> (md5: 15ebb086d975583386c1d0e49fbca932)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition028.tgz">Partition 028</a> (md5: 3dd39dee6efea9b1b50d282d1d2aae19)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition028.tgz">Partition 028</a> (md5: 202f0507d424b70b60b785d5131d28a4)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition029.tgz">Partition 029</a> (md5: 3c5b3522dd741214554f84d8645cdf20)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition030.tgz">Partition 030</a> (md5: 1ef7fe24c315085d8dcfe4e6ba9b4de2)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition030.tgz">Partition 030</a> (md5: 6e54914ef12c9b7757496b5867028067)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition031.tgz">Partition 031</a> (md5: e9501d4d0fd38d64c2ad1c81f8d1a0e3)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition032.tgz">Partition 032</a> (md5: 1f3ff51da0e87c2009bef8256b930f0b)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition033.tgz">Partition 033</a> (md5: 76a518084b021db82fd5dab7540e88bb)
@@ -146,9 +147,9 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition050.tgz">Partition 050</a> (md5: 790281fcf0512a798b6f0e75b14620be)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition051.tgz">Partition 051</a> (md5: 4fc5dc17819a3727e5cedaa89550ef9f)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition052.tgz">Partition 052</a> (md5: d33a70e926dee0e67cf1a75d50ee1249)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition053.tgz">Partition 053</a> (md5: 9d66e1372866dd454173f486d57ae322)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition053.tgz">Partition 053</a> (md5: 04e641cfc8bbe7233773fc38add3fbd2)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition054.tgz">Partition 054</a> (md5: 958b62e07349258d93ee3e089c6f91ff)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition055.tgz">Partition 055</a> (md5: 0e605a04d9bbeb0573aefddbfae12bd6)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition055.tgz">Partition 055</a> (md5: 55f74869ce3303277edf2225b4796fa0)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition056.tgz">Partition 056</a> (md5: 29b205c649f66e3d44ea9f598b492bc2)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition057.tgz">Partition 057</a> (md5: 7336b91e333ae912b4cfc6e366570c54)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition058.tgz">Partition 058</a> (md5: 2d992482005a2523f710487f2c0a0a31)
@@ -238,7 +239,7 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition142.tgz">Partition 142</a> (md5: 0fa6572159ec40ebda3400316bceb036)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition143.tgz">Partition 143</a> (md5: 1275a1587f52129a2eb31b1c4c0ca10c)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition144.tgz">Partition 144</a> (md5: cd983796c2c94d4dd0b19af8b134ef1f)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition145-148.tgz">Partition 145-148-</a> (md5: d07b77482f5ae167fa8806f51ac0db3c)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition145-148.tgz">Partition 145-148</a> (md5: d07b77482f5ae167fa8806f51ac0db3c)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition149-150.tgz">Partition 149-150</a> (md5: 0d045ac58956492f98b1937faae88d06)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition151-152.tgz">Partition 151-152</a> (md5: 54fdf8a38733d0fe01add1c4695a7d89)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition153-154.tgz">Partition 153-154</a> (md5: 4b8b18a9a1f12047e0309365aecc4832)
@@ -301,6 +302,11 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition224.tgz">Partition 224</a> (md5: a0a16ac031a6bafdba6c299282f5275a)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition225.tgz">Partition 225</a> (md5: 378aebc21351b13ba643bb83645ae860)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition226.tgz">Partition 226</a> (md5: d99c0ef473cec223269f1c91a6d99bc7)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition227.tgz">Partition 227</a> (md5: 0d9a266167d7b1429866dbbff76427fb)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition228.tgz">Partition 228</a> (md5: 246d9aebae66f06767e0177e1d26a735)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition229.tgz">Partition 229</a> (md5: 14934a026120af86908254d0c336a144)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition230.tgz">Partition 230</a> (md5: ef20895ee39928e8c77e57be3f11afe0)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition231.tgz">Partition 231</a> (md5: ccec880307a9c9999aa7d468df4911c5)
 
 ## 10X Genomics Data
 ### Raw fastq files
@@ -385,3 +391,4 @@ Please raise issues on this Github repository concerning this dataset.
     * chr8 v3, rel4 data: 21 Feb 2020. Data and assembly update.
     * update rel3 partition names since some tars included more than a single partition. 16 Apr 2020.
     * add CLR/HiFi mappings to chrX v0.7. 8 May 2020.
+    * update partitions 23,28,30,53,55 and add 227-231 (data was missing from upload). 13 May 2020. Data update.
