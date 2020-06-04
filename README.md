@@ -40,6 +40,14 @@ We sequenced a total of 367 Gbp of data (118x coverage). The read N50 is 53 kbp 
 
 Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 80 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 38 Gbp (12x, 0.5 Gbp/flowcell). The read N50 is 130 kbp and there are 30 Gbp of data in reads >50 kbp (10x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
 
+### rel5 (genomic DNA)
+
+rel5 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.6.0 with the HAC model.
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel5/rel5.fastq.gz">Guppy flip-flop 3.6.0</a> (md5: fe4941f1f4c5d5b551c50faf368735fb)
+
 ### rel4 (genomic DNA)
 
 rel4 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.4.5 with the HAC model. 
@@ -392,3 +400,4 @@ Please raise issues on this Github repository concerning this dataset.
     * update rel3 partition names since some tars included more than a single partition. 16 Apr 2020.
     * add CLR/HiFi mappings to chrX v0.7. 8 May 2020.
     * update partitions 23,28,30,53,55 and add 227-231 (data was missing from upload). 13 May 2020. Data update.
+    * add rel5 guppy 3.6.0 data: 4 Jun 2020. Data update.
