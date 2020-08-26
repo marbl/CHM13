@@ -11,7 +11,7 @@ Human genomic DNA was extracted from the cultured cell line. As the DNA is nativ
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "telomere-to-telomere" (T2T) consortium for the creation of this data and encourage you to join us if you would like to help finish the human reference genome. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
 ## Citation:
-Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://doi.org/10.1101/735928). bioRxiv, 2019.
+Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
 
 # Draft Assembly
 
@@ -19,7 +19,7 @@ The current assembly draft (v0.7) is generated with [Canu v1.7.1](https://github
 
 The assembly is 2.94 Gbp in size with 359 scaffolds (448 contigs) and an NG50 of 83 Mbp (70 Mbp)
 
-Outside of the X, this should be considered a draft and likely has mis-assemblies. We will continue to update releases as we validate/fix the assembly. Unpolished assemblies are available below for each data release and may be a more suitable basis for the structural analysis of other chromosomes, but will have a lower consensus accuracy.
+Outside of Chr8 and ChrX, this should be considered a draft and likely has mis-assemblies. We will continue to update releases as we validate/fix the assembly. Unpolished assemblies are available below for each data release and may be a more suitable basis for the structural analysis of other chromosomes, but will have a lower consensus accuracy.
 
 ### Downloads
 
@@ -27,8 +27,8 @@ Outside of the X, this should be considered a draft and likely has mis-assemblie
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 Nanopore rel1 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioHiFi.bam">Chromosome X v0.7 PacBio HiFi unique k-mer anchored mappings</a> (md5: bd22daaf6d4a2cd775f109a853a911a9)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioCLR.bam">Chromosome X v0.7 PacBio CLR unique k-mer anchored mappings</a> (md5: 69be7bd105ee590bf57853c249e1f8d8)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chr8_v3.fasta.gz">Chromosome 8 v3</a> (md5: 7194793c7fc0296749f226d2cd6a9c76)
-   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/rel3_to_chr8_v3.filtered.bam">Chromosome 8 v3 Nanopore rel3 unique k-mer anchored mappings</a> (md5: 6b3be07cbef7a9b04bde83b91cfe764d)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chr8_v9.fasta.gz">Chromosome 8 v9</a> (md5: cc33037728ab1f743d3e79f85e8c10ac)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel5/rel5_to_chr8_v9.filtered.bam">Chromosome 8 v9 Nanopore rel5 unique k-mer anchored mappings</a> (md5: e953525b097c98d8485a3a7b152da897)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> (md5: b9777540aaa0251c7dbb4974fb0a69d6)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.6.fasta.gz">Assembly draft v0.6</a> (md5: c3e3318e82ba5dc64b74f458f4989b85)   
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.4.fasta.gz">Assembly draft v0.4</a> (md5: 7e3c2fff9479ba45f7916fa1eee1310b)
@@ -401,3 +401,4 @@ Please raise issues on this Github repository concerning this dataset.
     * add CLR/HiFi mappings to chrX v0.7. 8 May 2020.
     * update partitions 23,28,30,53,55 and add 227-231 (data was missing from upload). 13 May 2020. Data update.
     * add rel5 guppy 3.6.0 data: 4 Jun 2020. Data update.
+    * add chr8 v9. Aug 26 2020. Assembly update.
