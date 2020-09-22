@@ -11,9 +11,9 @@ Human genomic DNA was extracted from the cultured cell line. As the DNA is nativ
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "Telomere-to-Telomere" (T2T) consortium for the creation of this data and encourage you to contact us if you would like to perform analyses on it. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
 ## Citations:
-Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
-Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1101/2020.09.08.285395). bioRxiv, 2020.
-Nurk S, et al. preprint describing a v1.0 whole-genome assembly is in preparation.
+1. Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
+2. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1101/2020.09.08.285395). bioRxiv, 2020.
+3. Nurk S, et al. preprint describing a v1.0 whole-genome assembly is in preparation.
 
 # Draft Assembly
 
