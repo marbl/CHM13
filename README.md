@@ -6,7 +6,7 @@ We have sequenced the CHM13hTERT human cell line with a number of technologies, 
 
 Human genomic DNA was extracted from the cultured cell line. As the DNA is native, modified bases will be preserved. Nanopore sequencing was performed using Josh Quick's [ultra-long read (UL) protocol](https://www.protocols.io/view/ultra-long-read-sequencing-protocol-for-rad004-mrxc57n).
 
-# Data reuse and license
+## Data reuse and license
 
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "Telomere-to-Telomere" (T2T) consortium for the creation of this data and encourage you to contact us if you would like to perform analyses on it. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
@@ -15,29 +15,26 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 2. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1101/2020.09.08.285395). bioRxiv, 2020.
 3. Nurk S, et al. preprint describing a v1.0 whole-genome assembly is in preparation.
 
-# Draft Assembly v1.0
+# Assembly releases
+### v1.0
+Complete T2T reconstruction of a human genome, with the exception of 5 known gaps within the rDNA arrays. Polished assembly based on v0.9. Introduces 4 structural corrections and 993 small variant corrections, including a 4 kb telomere extension on chr18. Polishing was performed using a conservative custom pipeline based on DeepVariant calls and structural corrections were manually curated. Consensus quality exceeds Q60.
 
-Result of conservative polishing of v0.9 assembly with a custom pipeline. Brings estimated consensus quality to Q72 (from Q70). 
-Also patches 4Kb+ of telomere on chr18, missing in v0.9
+### v0.9
+T2T reconstruction of all 23 chromosomes of CHM13 based on a custom assembly pipeline, briefly featuring:
 
-# Draft Assembly v0.9
+1. Homopolymer-compression and self-correction of Pacbio HiFi reads
+2. Rescoring of overlaps to account for recurrent Pacbio HiFi errors
+3. Construction and custom pruning of a string graph built over 100% identical overlaps
+4. Manual reconstruction on chromosomal paths through the graph, if necessary aided by ultra-long Nanopore reads
+5. Layout/consensus of original HiFi reads, corresponding to the resulting paths
+6. Patching of regions absent from HiFi data with v0.7 draft sequences
 
-T2T reconstruction of all 23 chromosomes of CHM13. Consensus quality estimated as Q70. Based on a custom assembly pipeline, briefly featuring:
+Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of the 5 rDNA arrays are represented by N-gaps.
 
-1. Homopolymer-compression and self-correction of Pacbio HiFi reads.
-2. Rescoring of overlaps to account for recurrent Pacbio HiFi errors.
-3. Construction and custom pruning of a string graph built over 100% identical overlaps.
-4. Manual reconstruction on chromosomal paths through the graph, if necessary aided by Ultra-Long ONT reads.
-5. Layout/consensus of original HiFi reads, corresponding to the resulting paths.
-6. Patching of regions absent from HiFi data with v0.7 draft sequences.
-
-Mitochondrial sequence DNA included.
-
-# Draft Assembly v0.7
-
+### v0.7
 Assembly draft v0.7 was generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. We [validated](https://github.com/skoren/bacValidation) the assembly using [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59). The overall QV is estimated to be Q37 (Q42 in unique regions) and the assembly resolves over 80% of available CHM13 BACs (280/341). The assembly is 2.94 Gbp in size with 359 scaffolds (448 contigs) and an NG50 of 83 Mbp (70 Mbp). Outside of Chr8 and ChrX, this should be considered a draft and likely has mis-assemblies. Older unpolished assemblies are available for benchmarking purposes, but are of lower quality and should not be used for analyses.
 
-### Downloads
+## Downloads
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v1.0.fasta.gz">Assembly draft v1.0</a>
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.9.fasta.gz">Assembly draft v0.9</a>
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v0.9.region.bed.gz">Regions patched by non-HiFi data & rDNA loci</a>
