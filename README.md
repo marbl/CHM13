@@ -17,7 +17,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 # Draft Assembly v1.0
 
-Conservatively polished version of v0.9 assembly, bringing the result to estimated consensus quality of Q72. 
+Result of conservative polishing of v0.9 assembly with a custom pipeline. Brings estimated consensus quality to Q72 (from Q70). 
 Also patches 4Kb+ of telomere on chr18, missing in v0.9
 
 # Draft Assembly v0.9
