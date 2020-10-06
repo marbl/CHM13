@@ -64,7 +64,19 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 # Sequencing Data
 
 ## Oxford Nanopore Data
-We sequenced a total of 367 Gbp of data (118x coverage). The read N50 is 53 kbp and there are 193 Gbp bases in reads >50 kbp (62x). The longest full-length mapping read is 1.3 Mbp. Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 80 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 38 Gbp (12x, 0.5 Gbp/flowcell). The read N50 is 130 kbp and there are 30 Gbp of data in reads >50 kbp (10x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
+r
+We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp and there are 219 Gbp bases in reads >50 kbp (71x). The longest full-length mapping read is 1.3 Mbp. Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 106 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 69 Gbp (22x, 0.6 Gbp/flowcell). The read N50 is 133 kbp and there are 57 Gbp of data in reads >50 kbp (18x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
+
+Read ids broken out by sequencing location are available for <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
+
+### rel6 (genomic DNA)
+
+rel6 is the full dataset as of 2020/10/01, adding UW data from partitions 232-243. All data was re-called using Guppy 3.6.0 with the HAC model.
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel6/rel6.fastq.gz">Guppy flip-flop 3.6.0</a> (md5: b6f9b702d5dd1a3407b5343fb17391b2)
+
 
 ### rel5 (genomic DNA)
 
@@ -84,7 +96,7 @@ rel4 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.
 
 ### rel3 (genomic DNA)
 
-rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.1.5 with the HAC model. We have provided mappings both to our current draft assembly and to the <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>. Read ids broken out by sequencing location are available for <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
+rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.1.5 with the HAC model. We have provided mappings both to our current draft assembly and to the <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>. 
 
 #### Downloads
 
@@ -116,7 +128,7 @@ The full dataset as of 2019/01/09. These basecalls were generated on-instrument 
 
 ### fast5 data
 
-The raw fast5 data, without basecalls, is available for completeness. The data is grouped into 226 sets.
+The raw fast5 data, without basecalls, is available for completeness. The data is grouped into 243 sets.
 
    - Partitions 1-94 were sequenced at [NHGRI](https://www.nisc.nih.gov)
    - Partitions 95-98 were sequenced at [University of Nottingham](https://www.nottingham.ac.uk/deepseq/)
@@ -124,6 +136,7 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - Partitions 145-224 were sequenced at [University of Washington](https://eichlerlab.gs.washington.edu/index.html)
    - Partitions 225-226 were sequenced at [UC Davis](https://dnatech.genomecenter.ucdavis.edu)
    - Partitions 227-231 were sequenced at [NHGRI](https://www.nisc.nih.gov)
+   - Partitions 232-243 were sequenced at [University of Washington](https://eichlerlab.gs.washington.edu/index.html)
 
    - Note that when the tgz were groupped and uploaded, some inadvertently included more than a single partition. These are denoted as partition ranges in the downloads (e.g. 145-149). 
 
@@ -341,6 +354,17 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition229.tgz">Partition 229</a> (md5: 14934a026120af86908254d0c336a144)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition230.tgz">Partition 230</a> (md5: ef20895ee39928e8c77e57be3f11afe0)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition231.tgz">Partition 231</a> (md5: ccec880307a9c9999aa7d468df4911c5)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition232.tgz">Partition 232</a> (md5: 81917bd7ce37628b5b7438dc531147ff)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition233-234.tgz">Partition 233-234</a> (md5: 798f496e2c086dccdb7f62db866c1525)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition235.tgz">Partition 235</a> (md5: 28da4a29c963879ea6af14fd7ea47313)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition236.tgz">Partition 236</a> (md5: af43d8d1e1420531c33c8f63012a5582)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition237.tgz">Partition 237</a> (md5: 1cb0cfc3a263f331eb45fb47082d1f15)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition238.tgz">Partition 238</a> (md5: b7df2be60ead2d63e3358cda9a532b12)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition239.tgz">Partition 239</a> (md5: d62b1dc41ff27bb6c090467c0b390363)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition240.tgz">Partition 240</a> (md5: 4a870d135d93ec1e834ceba7c203061e)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition241.tgz">Partition 241</a> (md5: 1135fbd234a5b635d6155b8f400bc8ab)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition242.tgz">Partition 242</a> (md5: d4a08ac562906f07f282e078e3db4c5e)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/fast5/partition243.tgz">Partition 243</a> (md5: 066517834bf644bcb0e6f76e34213dac)
 
 ## 10X Genomics Data
 ### Raw fastq files
@@ -430,3 +454,4 @@ Please raise issues on this Github repository concerning this dataset.
     * add chr8 v9. Aug 26 2020. Assembly update.
     * add v0.9/v1.0 genome releases. Sept 22 2020. Assembly update.
     * add v0.9/v1.0 alignment files. Sept 29 2020. Assembly update.
+    * add new UW data. Oct 6 2020. Data update.
