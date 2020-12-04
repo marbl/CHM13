@@ -405,6 +405,17 @@ A library was generated using an Arima genomics kit and sequenced to approximate
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep2_lane1_R1.fastq.gz">CHM13.rep2_lane1_R1.fastq.gz</a> (md5: 26ce58141bb25b4931512ec4cf176f64)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/arima/CHM13.rep2_lane1_R2.fastq.gz">CHM13.rep2_lane1_R2.fastq.gz</a> (md5: 77b71bd1067c6e4e908a9aaa05f4bd73)
 
+## RNA-seq data
+
+A library was generated at UCDavis of 2x15bp RNA-seq reads and sequenced on an Illumina NovaSeq.
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/rnaseq/CHM13_1_S182_L002_R1_001.fastq.gz">CHM13_1_S182_L002_R1_001.fastq.gz</a> (md5: 4bbbc3bea152273d8d609c54d66c6d82)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/rnaseq/CHM13_1_S182_L002_R2_001.fastq.gz">CHM13_1_S182_L002_R2_001.fastq.gz</a> (md5: 3c9445f5370fbf85e5af8d8c44ad3379)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/rnaseq/CHM13_2_S183_L002_R1_001.fastq.gz">CHM13_2_S183_L002_R1_001.fastq.gz</a> (md5: 61ef6c5bb88286af497f8dcc8d32a5dc)
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/rnaseq/CHM13_2_S183_L002_R2_001.fastq.gz">CHM13_2_S183_L002_R2_001.fastq.gz</a> (md5: 5c49547f57f2b5fd795b8c87cdfbdb6f)
+
 ## Previously generated PacBio data
 
 The PacBio data (both CLR and HiFi) was previously generated and is available from the <a href="https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=269593">SRA</a>. The list of P6-C4 cells used for arrow polishing are listed <a href="https://raw.githubusercontent.com/nanopore-wgs-consortium/CHM13/master/pbP6Cells">here</a>.
@@ -454,3 +465,4 @@ Please raise issues on this Github repository concerning this dataset.
     * add v0.9/v1.0 genome releases. Sept 22 2020. Assembly update.
     * add v0.9/v1.0 alignment files. Sept 29 2020. Assembly update.
     * add new UW data. Oct 6 2020. Data update.
+    * add rna-seq data. Dec 4 2020. Data update.
