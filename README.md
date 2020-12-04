@@ -407,7 +407,7 @@ A library was generated using an Arima genomics kit and sequenced to approximate
 
 ## RNA-seq data
 
-A library was generated at UCDavis of 2x15bp RNA-seq reads and sequenced on an Illumina NovaSeq.
+Two separate poly-A prep libraries were generated at UC Davis and 2x150 bp RNA-seq reads generated on an Illumina NovaSeq (~25 million PE reads each).
 
 #### Downloads
 
