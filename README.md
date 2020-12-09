@@ -68,6 +68,13 @@ We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp 
 
 Read ids broken out by sequencing location are available for <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
 
+### rel7 (genome DNA)
+rel 7 is the full dataset as of 2020/10/01. All data was re-called using Bonito v0.3.1.
+
+#### Downloads
+
+   - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel7/rel7.fastq.gz">Bonito 0.3.10</a> (md5: d56fb4b4e4a7165c8fa7315795d9d419)
+
 ### rel6 (genomic DNA)
 
 rel6 is the full dataset as of 2020/10/01, adding UW data from partitions 232-243. All data was re-called using Guppy 3.6.0 with the HAC model.
