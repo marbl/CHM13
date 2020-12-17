@@ -36,6 +36,10 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 
 ## Downloads
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v1.0.fasta.gz">Assembly draft v1.0</a> (md5: 6d827b6512562630137008830c46e1ac)
+      - RepeatMasker 4.1.0 track constructed with HMMER 3.2.1 and the Dfam_3.1 database
+         - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v1.0_plus38Y_repeatmasker.out.gz">RepeatMasker output</a> (md5: 4c0f97b156b84536523729727778b718)
+      - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
+         - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation//chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.0.clr.bam has a chm13.draft_v1.0.clr.bam.bai)
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.draft_v1.0.clr.bam">PacBio CLR alignments (generated via Winnowmap v1.11 -x map-pb-clr)</a> (md5: 4a3999abdd303cff58989c5cd6a92919)
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.draft_v1.0.hifi.bam">PacBio HiFi alignments (generated via Winnowmap v1.11 -x map-pb)</a> (md5: bb6d7852bea8d001251369753d87c577)
@@ -53,8 +57,8 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.draft_v0.9.pcrfree.bam">PCRFree Illumina alignments (generated via bwa mem v0.7.15)</a> (md5: 7c13fd36ae404eb41697ec5d54ba608f)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.fasta.gz">Chromosome X v0.7</a> (md5: 89b3dd61db66177dd830527b920956fa)
       - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel1/rel1_to_v0.7_chrX.filtered.bam">Chromosome X v0.7 Nanopore rel1 unique k-mer anchored mappings</a> (md5: ada12a00d4781f6b0101a09be19abe93)
-      - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioHiFi.bam">Chromosome X v0.7 PacBio HiFi unique k-mer anchored mappings</a> (md5: bd22daaf6d4a2cd775f109a853a911a9)
-      - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chrX_v0.7.pacbioCLR.bam">Chromosome X v0.7 PacBio CLR unique k-mer anchored mappings</a> (md5: 69be7bd105ee590bf57853c249e1f8d8)
+      - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.chrX_v0.7.pacbioHiFi.bam">Chromosome X v0.7 PacBio HiFi unique k-mer anchored mappings</a> (md5: bd22daaf6d4a2cd775f109a853a911a9)
+      - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.chrX_v0.7.pacbioCLR.bam">Chromosome X v0.7 PacBio CLR unique k-mer anchored mappings</a> (md5: 69be7bd105ee590bf57853c249e1f8d8)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.chr8_v9.fasta.gz">Chromosome 8 v9</a> (md5: cc33037728ab1f743d3e79f85e8c10ac)
       - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/nanopore/rel5/rel5_to_chr8_v9.filtered.bam">Chromosome 8 v9 Nanopore rel5 unique k-mer anchored mappings</a> (md5: e953525b097c98d8485a3a7b152da897)
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> (md5: b9777540aaa0251c7dbb4974fb0a69d6)
@@ -473,3 +477,4 @@ Please raise issues on this Github repository concerning this dataset.
     * add v0.9/v1.0 alignment files. Sept 29 2020. Assembly update.
     * add new UW data. Oct 6 2020. Data update.
     * add rna-seq data. Dec 4 2020. Data update.
+    * add repeat and telomere annotations for v1.0. Dec 17 2020. Assembly annotation update.
