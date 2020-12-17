@@ -39,7 +39,7 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
       - RepeatMasker 4.1.0 track constructed with HMMER 3.2.1 and the Dfam_3.1 database
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v1.0_plus38Y_repeatmasker.out.gz">RepeatMasker output</a> (md5: 4c0f97b156b84536523729727778b718)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
-         - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation//chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
+         - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.0.clr.bam has a chm13.draft_v1.0.clr.bam.bai)
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.draft_v1.0.clr.bam">PacBio CLR alignments (generated via Winnowmap v1.11 -x map-pb-clr)</a> (md5: 4a3999abdd303cff58989c5cd6a92919)
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/alignments/chm13.draft_v1.0.hifi.bam">PacBio HiFi alignments (generated via Winnowmap v1.11 -x map-pb)</a> (md5: bb6d7852bea8d001251369753d87c577)
