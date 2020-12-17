@@ -36,7 +36,7 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 
 ## Downloads
    - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/chm13.draft_v1.0.fasta.gz">Assembly draft v1.0</a> (md5: 6d827b6512562630137008830c46e1ac)
-      - RepeatMasker 4.1.0 track constructed with HMMER 3.2.1 and the Dfam_3.1 database
+      - RepeatMasker 4.1.0 track constructed with NCBI / RMblast and the Dfam_3.1 database (`RepeatMasker -s -xsmall -e ncbi -species human`)
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v1.0_plus38Y_repeatmasker.out.gz">RepeatMasker output</a> (md5: 4c0f97b156b84536523729727778b718)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3.amazonaws.com/nanopore-human-wgs/chm13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
