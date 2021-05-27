@@ -11,13 +11,19 @@ The known issues identified in the v1.1 assembly are tracked at [CHM13 issues](h
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "Telomere-to-Telomere" (T2T) consortium for the creation of this data and encourage you to contact us if you would like to perform analyses on it. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
 ## Citations:
-1. Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
-2. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7). Nature, 2021.
-3. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1101/2021.05.26.445798). bioRxiv, 2021.
+1. Vollger MR, et al. [Improved assembly and variant detection of a haploid human genome using single-molecule, high-fidelity long reads](https://doi.org/10.1111/ahg.12364). Annals of Human Genetics, 2019.
+2. Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
+3. Nurk S, Walenz BP, et al. [HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads](https://doi.org/10.1101/gr.263566.120). Genome Research, 2020.
+4. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7). Nature, 2021.
+
+### The complete sequence of a human genome and companion papers
+1. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1101/2021.05.26.445798). bioRxiv, 2021.
+2. Vollger MR, et al. [Segmental duplications and their variation in a complete human genome](https://doi.org/10.1101/2021.05.26.445678). bioRxiv, 2021.
+3. Gershman A, et al. [Epigenetic Patterns in a Complete Human Genome](https://doi.org/10.1101/2021.05.26.443420). bioRxiv, 2021.
 
 # Assembly releases
 ### v1.1
-<a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Complete T2T reconstruction of a human genome</a>. Changes from v1.0 include fillined rDNA gaps and improved polishing within telomeres. One rare heterozygous variant causing a premature stop codon was changed at chr9:134589924 to the more common allele. Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.3">NCBI</a>.
+<a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Complete T2T reconstruction of a human genome</a>. Changes from v1.0 include filled rDNA gaps and improved polishing within telomeres. One rare heterozygous variant causing a premature stop codon was changed at chr9:134589924 to the more common allele. Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.3">NCBI</a>.
 
 ### v1.0
 <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.0.fasta.gz">Complete T2T reconstruction of a human genome</a>, with the exception of 5 known gaps within the rDNA arrays. Polished assembly based on v0.9. Introduces 4 structural corrections and 993 small variant corrections, including a 4 kb telomere extension on chr18. Polishing was performed using a conservative custom pipeline based on DeepVariant calls and structural corrections were manually curated. Consensus quality exceeds Q60. Prior to a preprint being drafted, a brief summary can be found at this [blog post](https://genomeinformatics.github.io/CHM13v1/). Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.2">NCBI</a>.
@@ -79,6 +85,9 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/HG002.chrX_v0.7.fasta.gz">HG002 chrX draft v0.7 (not T2T, missing p-arm PAR region)</a> (md5: 1d79ac022424fc5671135e2ac362d91d)
 
 # Sequencing Data
+
+## HiFi Data
+A total of 100 Gbp of data (32.4x coverage) in HiFi 20 kbp libraries (used for v0.9-v1.1 assemblies) is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=SRX789768*+CHM13). An additional 76 Gbp of data (24.4x coverage) is available in HiFi 10 kbp libraries at [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX5633451/).
 
 ## Oxford Nanopore Data
 Nanopore sequencing was performed using Josh Quick's [ultra-long read (UL) protocol](https://www.protocols.io/view/ultra-long-read-sequencing-protocol-for-rad004-mrxc57n) and modifications as described in  [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7).
