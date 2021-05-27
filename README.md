@@ -12,7 +12,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 ## Citations:
 1. Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
-2. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1101/2020.09.08.285395). bioRxiv, 2020.
+2. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7). Nature, 2021.
 3. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1101/2021.05.26.445798). bioRxiv, 2021.
 
 # Assembly releases
