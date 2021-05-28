@@ -43,6 +43,9 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 ### v0.7
 <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v0.7.fasta.gz">Assembly draft v0.7</a> was generated with [Canu v1.7.1](https://github.com/marbl/canu) including rel1 data up to 2018/11/15 and incorporating the previously released PacBio data. Two gaps on the X plus the centromere were manually resolved. Contigs with low coverage support were split and the assembly was scaffolded with BioNano. The assembly was polished with two rounds of [nanopolish](https://github.com/jts/nanopolish) and two rounds of [arrow](https://github.com/PacificBiosciences/GenomicConsensus). The X polishing was done using unique markers matched between the assembly and the raw read data, the rest of the genome used traditional polishing. Finally, the assembly was polished with 10X Genomics data. We [validated](https://github.com/skoren/bacValidation) the assembly using [independent BACs](https://www.ncbi.nlm.nih.gov/nuccore/?term=VMRC59). The overall QV is estimated to be Q37 (Q42 in unique regions) and the assembly resolves over 80% of available CHM13 BACs (280/341). The assembly is 2.94 Gbp in size with 359 scaffolds (448 contigs) and an NG50 of 83 Mbp (70 Mbp). Outside of Chr8 and ChrX, this should be considered a draft and likely has mis-assemblies. Older unpolished assemblies are available for benchmarking purposes, but are of lower quality and should not be used for analyses. Also available at  <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.1">NCBI</a>.
 
+### HG002 Chromosome X
+<a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/HG002.chrX_v0.7.fasta.gz">Assemly draft v0.7</a> with the same methods used for  CHM13 asm v0.9 with HG002 data HiFi available from the <a href="https://humanpangenome.org/hg002/">HPRC HG002</a> data freeze. Due to HiFI coverage gaps which were not patched, the assembly is missing approximately 2 Mbp on the p-arm (including the PAR).
+
 ## Downloads
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Assembly draft v1.1</a> (md5: 1cab2b2776005cdf339ec9f283ba2c70)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
@@ -101,7 +104,7 @@ rel 7 is the full dataset as of 2020/10/01. All data was re-called using Bonito 
 
 #### Downloads
 
-   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel7/rel7.fastq.gz">Bonito 0.3.10</a> (md5: d56fb4b4e4a7165c8fa7315795d9d419)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel7/rel7.fastq.gz">Bonito 0.3.1</a> (md5: d56fb4b4e4a7165c8fa7315795d9d419)
 
 ### rel6 (genomic DNA)
 
@@ -110,6 +113,7 @@ rel6 is the full dataset as of 2020/10/01, adding UW data from partitions 232-24
 #### Downloads
 
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel6/rel6.fastq.gz">Guppy flip-flop 3.6.0</a> (md5: b6f9b702d5dd1a3407b5343fb17391b2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel6/rel6.sequencing_summary.txt.gz">Guppy sequencing summary</a> (md5: 9e2bb5a1fa57dfb5a743ee30d64b8613)
 
 
 ### rel5 (genomic DNA)
