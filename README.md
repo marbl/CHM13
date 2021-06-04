@@ -61,7 +61,6 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.0.fasta.gz">Assembly draft v1.0</a> (md5: 6d827b6512562630137008830c46e1ac)
        - Annotation from <a href="https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit">CAT</a> and <a href="https://github.com/agshumate/Liftoff">Liftoff</a> 
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: a39f18f553d5a426eaef9cfd4f858bf6)
-
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.0.wm_2.01.hifi.bam has a chm13.draft_v1.0.wm_2.01.hifi.bam.bai)
