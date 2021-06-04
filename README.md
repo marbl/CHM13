@@ -48,6 +48,8 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 
 ## Downloads
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Assembly draft v1.1</a> (md5: 1cab2b2776005cdf339ec9f283ba2c70)
+      - Annotation from <a href="https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit">CAT</a> and <a href="https://github.com/agshumate/Liftoff">Liftoff</a> 
+         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: 14865ece7fe6367b8e2b06776a3d522f)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.telomere.bed.gz">telomere bed file</a> (md5: d6b148d16bf303e25552e381cddff9df)
       - Liftover from v1.0
@@ -57,8 +59,9 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.ont.wm_2.01.bam">Oxford nanopore alignments (generated via Winnowmap v2.01 -x map-ont)</a> (md5: 5864c09db27e1649fc6dc958a8faba9f)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.pcrfree.bam">PCRFree Illumina alignments (generated via bwa mem v0.7.15)</a> (md5: bb41008d0f5de787d26896fb49027420)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.0.fasta.gz">Assembly draft v1.0</a> (md5: 6d827b6512562630137008830c46e1ac)
-      - RepeatMasker 4.1.0 track constructed with NCBI / RMblast and the Dfam_3.1 database (`RepeatMasker -s -xsmall -e ncbi -species human`)
-         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0_plus38Y_repeatmasker.out.gz">RepeatMasker output</a> (md5: 4c0f97b156b84536523729727778b718)
+       - Annotation from <a href="https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit">CAT</a> and <a href="https://github.com/agshumate/Liftoff">Liftoff</a> 
+         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: a39f18f553d5a426eaef9cfd4f858bf6)
+
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.0.wm_2.01.hifi.bam has a chm13.draft_v1.0.wm_2.01.hifi.bam.bai)
