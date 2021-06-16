@@ -52,8 +52,10 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: 14865ece7fe6367b8e2b06776a3d522f)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.telomere.bed.gz">telomere bed file</a> (md5: d6b148d16bf303e25552e381cddff9df)
-      - Liftover from v1.0
+      - Liftover from v1.0 to v1.1
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_to_v1.1.chain">chain file</a> (md5: 7a6eb727ad489fe040d5ec2c8383c961)
+      - Liftover from v1.1 to v1.0
+         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.1_to_v1.0.chain">chain file</a> (md5: a987e7e74aa26010abaf24bd2dde2ef4)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.1.hifi_20k.wm_2.0.1.pri.bam has a chm13.draft_v1.1.hifi_20k.wm_2.0.1.pri.bam.bai)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.hifi_20k.wm_2.01.pri.bam">PacBio HiFi alignments (generated via Winnowmap v2.01 -x map-pb)</a> (md5: ab6b38cb00efa919f6d93bc89787a121)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.ont_guppy_3.6.0.wm_2.01.pri.bam">Oxford nanopore Guppy alignments (generated via Winnowmap v2.01 -x map-ont)</a> (md5: 5cb543ac85513995893015a3709806f4)
@@ -63,6 +65,10 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: a39f18f553d5a426eaef9cfd4f858bf6)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
+      - Liftover from hg38 to v1.0 (all files from <a href="https://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/">UCSC Genome Browser</a>
+         - <a href="http://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/hg38.t2t-chm13-v1.0.over.chain.gz">chain file</a> (md5: ade08feeb01b75644cb1da383ebaa607)
+      - Liftover from v1.0 to hg38
+         - <a href="http://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/t2t-chm13-v1.0.hg38.over.chain.gz">chain file</a> (md5: 9edff5e020cc3f170350ff78fbe01d5c)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.0.wm_2.01.hifi.pri.bam has a chm13.draft_v1.0.wm_2.01.hifi.pri.bam.bai)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.0.clr_p6c4.wm_2.01.pri.bam">PacBio CLR alignments (generated via Winnowmap v2.01 -x map-pb-clr)</a> (md5: 235e23c72676279714a091fb226f3b1a)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.0.hifi_20k.wm_2.01.pri.bam">PacBio HiFi alignments (generated via Winnowmap v2.01 -x map-pb)</a> (md5: 2380bee4c3544d179b51cf22846e33ab)
