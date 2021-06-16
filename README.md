@@ -65,7 +65,7 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: a39f18f553d5a426eaef9cfd4f858bf6)
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.telomere.bed.gz">telomere bed file</a> (md5: 5cdca0c8b563b87f7a624d61ae0b5497)
-      - Liftover from hg38 to v1.0 (all files from <a href="https://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/">UCSC Genome Browser</a>
+      - Liftover from hg38 to v1.0 (all files from <a href="https://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/">UCSC Genome Browser</a>)
          - <a href="http://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/hg38.t2t-chm13-v1.0.over.chain.gz">chain file</a> (md5: ade08feeb01b75644cb1da383ebaa607)
       - Liftover from v1.0 to hg38
          - <a href="http://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/hg38Lastz/t2t-chm13-v1.0.hg38.over.chain.gz">chain file</a> (md5: 9edff5e020cc3f170350ff78fbe01d5c)
