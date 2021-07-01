@@ -99,7 +99,15 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 # Sequencing Data
 
 ## HiFi Data
-A total of 100 Gbp of data (32.4x coverage) in HiFi 20 kbp libraries (used for v0.9-v1.1 assemblies) is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=SRX789768*+CHM13). An additional 76 Gbp of data (24.4x coverage) is available in HiFi 10 kbp libraries at [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX5633451/).
+A total of 100 Gbp of data (32.4x coverage) in HiFi 20 kbp libraries (used for v0.9-v1.1 assemblies) is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=SRX789768*+CHM13). An additional 76 Gbp of data (24.4x coverage) is available in HiFi 10 kbp libraries at [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX5633451/). The raw subreads for the 20 kbp libraries are available below.
+
+### raw subreads (genome DNA) (NOTE: there are the individual raw subreads NOT HiFi reads. Most users will want to download the HiFi reads the links above).
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190803_042216.subreads.bam">m64062_190803_042216 aka SRR11292121</a> (md5: 2d0ad55219b0df9b3d2de08e678e5504)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190803_042216.subreads.bam.pbi">m64062_190803_042216 aka SRR11292121 index</a> (md5: 87ab91aa1bad393d33d4cda03c6c375c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190804_172951.subreads.bam">m64062_190804_172951 aka SRR11292123</a> (md5: 26c2a3592678acfa10c46063b4276079)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190804_172951.subreads.bam.pbi">m64062_190804_172951 aka SRR11292123 index</a> (md5: c504880737ff3b50fbfdde00cca731db)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190806_063919.subreads.bam">m64062_190806_063919 aka SRR11292120</a> (md5: 2ff780371484d6471625d1d08e6d2bdb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190806_063919.subreads.bam.pbi">m64062_190806_063919 aka SRR11292120 index</a> (md5: d24bd26ee375ca6d5a077f26a0602941)
 
 ## Oxford Nanopore Data
 Nanopore sequencing was performed using Josh Quick's [ultra-long read (UL) protocol](https://www.protocols.io/view/ultra-long-read-sequencing-protocol-for-rad004-mrxc57n) and modifications as described in  [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7).
@@ -107,6 +115,13 @@ Nanopore sequencing was performed using Josh Quick's [ultra-long read (UL) proto
 We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp and there are 219 Gbp bases in reads >50 kbp (71x). The longest full-length mapping read is 1.3 Mbp. Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 106 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 69 Gbp (22x, 0.6 Gbp/flowcell). The read N50 is 133 kbp and there are 57 Gbp of data in reads >50 kbp (18x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
 
 Read ids broken out by sequencing location are available for <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
+
+### rel8 (genome DNA)
+rel 8 is the full dataset as of 2020/10/01. All data was re-called using Guppy 5.0.7
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/reads.fastq.gz">Guppy 5.0.7</a> (md5: 39262716285ad6efb1f39d374f57dd4e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/sequencing_summary.txt.gz">Guppy sequencing summary</a> (md5: 419e5591baa29ceaeeede47f6fb0a04b)
 
 ### rel7 (genome DNA)
 rel 7 is the full dataset as of 2020/10/01. All data was re-called using Bonito v0.3.1.
