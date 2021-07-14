@@ -10,16 +10,23 @@ The known issues identified in the v1.1 assembly are tracked at [CHM13 issues](h
 
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. While not required, we would appreciate if you would acknowledge the "Telomere-to-Telomere" (T2T) consortium for the creation of this data and encourage you to contact us if you would like to perform analyses on it. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
-## Citations:
+## Earlier citations:
 1. Vollger MR, et al. [Improved assembly and variant detection of a haploid human genome using single-molecule, high-fidelity long reads](https://doi.org/10.1111/ahg.12364). Annals of Human Genetics, 2019.
 2. Miga KH, Koren S, et al. [Telomere-to-telomere assembly of a complete human X chromosome](https://dx.doi.org/10.1038/s41586-020-2547-7). Nature, 2020.
 3. Nurk S, Walenz BP, et al. [HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads](https://doi.org/10.1101/gr.263566.120). Genome Research, 2020.
 4. Logsdon GA, et al. [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7). Nature, 2021.
 
-### The complete sequence of a human genome and companion papers
+### The complete sequence of a human genome and companion papers:
 1. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1101/2021.05.26.445798). bioRxiv, 2021.
 2. Vollger MR, et al. [Segmental duplications and their variation in a complete human genome](https://doi.org/10.1101/2021.05.26.445678). bioRxiv, 2021.
 3. Gershman A, et al. [Epigenetic Patterns in a Complete Human Genome](https://doi.org/10.1101/2021.05.26.443420). bioRxiv, 2021.
+4. Aganezov S, Yan SM, Soto DC, Kirsche M, Zarate S, et al. [A complete reference genome improves anal􏰀sis of human genetic variation](https://doi.org/10.1101/2021.07.12.452063). bioRxiv, 2021.
+5. Hoyt SJ, Storer JM, Hartley GA, Grady PGS, et al. [From telomere to telomere: the transcriptional and epigenetic state of human repeat elements](https://doi.org/10.1101/2021.07.12.451456). bioRxiv, 2021.
+6. Altemouse N, Logsdon GA, Bzikadze AV, Sidhwani P, Langley SA, Caldas GV, et al. [Complete genomic and epigenetic maps of human centromeres](https://doi.org/10.1101/2021.07.12.452052). bioRxiv, 2021.
+7. Wagner J, et al. [Towards a Comprehensive Variation Benchmark for Challenging Medically-Relevant Autosomal Genes](https://doi.org/10.1101/2021.06.07.444885). bioRxiv, 2021.
+8. McCartney AM, Shafin K, Alonge M, et al. [Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies](https://doi.org/10.1101/2021.07.02.450803). bioRxiv, 2021.
+9. Jain C, et al. [A long read mapping method for highly repetitive reference sequences](https://doi.org/10.1101/2020.11.01.363887). bioRxiv, 2021.
+
 
 # Assembly releases
 ### v1.1
