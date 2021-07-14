@@ -435,6 +435,9 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition242.tgz">Partition 242</a> (md5: d4a08ac562906f07f282e078e3db4c5e)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition243.tgz">Partition 243</a> (md5: 066517834bf644bcb0e6f76e34213dac)
 
+## Illumina PCRFree Data
+A total of >300 Gbp of data (105x coverage) in PCR-Free Illumina libraries is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX1009644%5Baccn%5D).
+
 ## 10X Genomics Data
 ### Raw fastq files
 
