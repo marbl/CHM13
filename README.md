@@ -26,6 +26,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 7. Wagner J, et al. [Towards a Comprehensive Variation Benchmark for Challenging Medically-Relevant Autosomal Genes](https://doi.org/10.1101/2021.06.07.444885). bioRxiv, 2021.
 8. McCartney AM, Shafin K, Alonge M, et al. [Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies](https://doi.org/10.1101/2021.07.02.450803). bioRxiv, 2021.
 9. Jain C, et al. [A long read mapping method for highly repetitive reference sequences](https://doi.org/10.1101/2020.11.01.363887). bioRxiv, 2021.
+10. Formenti G, Rhie A, et al. [Merfin: improved variant filtering and polishing via k-mer validation](https://doi.org/10.1101/2021.07.16.452324). bioRxiv, 2021.
 
 
 # Assembly releases
