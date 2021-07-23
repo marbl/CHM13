@@ -20,7 +20,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 1. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1101/2021.05.26.445798). bioRxiv, 2021.
 2. Vollger MR, et al. [Segmental duplications and their variation in a complete human genome](https://doi.org/10.1101/2021.05.26.445678). bioRxiv, 2021.
 3. Gershman A, et al. [Epigenetic Patterns in a Complete Human Genome](https://doi.org/10.1101/2021.05.26.443420). bioRxiv, 2021.
-4. Aganezov S, Yan SM, Soto DC, Kirsche M, Zarate S, et al. [A complete reference genome improves anal􏰀sis of human genetic variation](https://doi.org/10.1101/2021.07.12.452063). bioRxiv, 2021.
+4. Aganezov S, Yan SM, Soto DC, Kirsche M, Zarate S, et al. [A complete reference genome improves analysis of human genetic variation](https://doi.org/10.1101/2021.07.12.452063). bioRxiv, 2021.
 5. Hoyt SJ, et al. [From telomere to telomere: the transcriptional and epigenetic state of human repeat elements](https://doi.org/10.1101/2021.07.12.451456). bioRxiv, 2021.
 6. Altemose N, et al. [Complete genomic and epigenetic maps of human centromeres](https://doi.org/10.1101/2021.07.12.452052). bioRxiv, 2021.
 7. Wagner J, et al. [Towards a Comprehensive Variation Benchmark for Challenging Medically-Relevant Autosomal Genes](https://doi.org/10.1101/2021.06.07.444885). bioRxiv, 2021.
