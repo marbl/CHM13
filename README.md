@@ -61,9 +61,9 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
       - Telomere identified by the <a href="https://github.com/VGP/vgp-assembly/tree/master/pipeline/telomere">VGP</a> pipeline
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.telomere.bed.gz">telomere bed file</a> (md5: d6b148d16bf303e25552e381cddff9df)
       - Liftover from v1.0 to v1.1
-         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_to_v1.1_rdna.chain">chain file</a> (md5: 6ec8c49fa8a19f5bb1d0bc6533ebcce1)
+         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_to_v1.1_rdna_merged.chain">chain file</a> (md5: 804d2a81dbf79199fa637f6bbed9a1a8)
       - Liftover from v1.1 to v1.0
-         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_to_v1.1_rdna.chain">chain file</a> (md5: 71c2b17a57868c1d67fbcfa49868c0ee)
+         - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.1_to_v1.0_rdna_merged.chain">chain file</a> (md5: 03180ca0210957e85affc72bb7083b2b)
       - Alignments (the index bai file is available under the same name as the bam with .bai appended (e.g. chm13.draft_v1.1.hifi_20k.wm_2.0.1.pri.bam has a chm13.draft_v1.1.hifi_20k.wm_2.0.1.pri.bam.bai)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.hifi_20k.wm_2.01.pri.bam">PacBio HiFi alignments (generated via Winnowmap v2.01 -x map-pb)</a> (md5: ab6b38cb00efa919f6d93bc89787a121)
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.ont_guppy_3.6.0.wm_2.01.pri.bam">Oxford nanopore Guppy alignments (generated via Winnowmap v2.01 -x map-ont)</a> (md5: 5cb543ac85513995893015a3709806f4)
