@@ -27,6 +27,9 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 
 # Assembly releases
+### v2.0
+Changes from v1.1 include the addition of a finished ChrY from the <a href="https://www.nist.gov/programs-projects/genome-bottle">GIAB</a> HG002 sample, sequenced both by <a href="https://github.com/genome-in-a-bottle/giab_data_indexes">GIAB</a> and <a href="https://humanpangenome.org/hg002/">HPRC</a>. Available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4">NCBI</a>.
+
 ### v1.1
 <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Complete T2T reconstruction of a human genome</a>. Changes from v1.0 include filled rDNA gaps and improved polishing within telomeres. One rare heterozygous variant causing a premature stop codon was changed at chr9:134589924 to the more common allele. Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.3">NCBI</a>. Changes made from v1.0 to v1.1 are available as a [VCF](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_patch.vcf.gz).
 
