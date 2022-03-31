@@ -64,6 +64,23 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 <a href="https://www.ncbi.nlm.nih.gov/nuccore/CP086568.2">Finished</a> sequence available from NCBI. An earlier <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/HG002.chrX_v0.7.fasta.gz">draft v0.7</a> with the same methods used for CHM13 asm v0.9 with HG002 data HiFi available from the <a href="https://humanpangenome.org/hg002/">HPRC HG002</a> data freeze. Due to HiFI coverage gaps which were not patched, the draft is missing approximately 2 Mbp on the p-arm (including the PAR).
 
 ## Downloads
+   - [Assembly v2.0](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz) (md5:eab64eb60815bc25fa73224e03b1b1d8) and [analysis set](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
+     - Annotation
+       - CAT and Liftoff [CHM13.v2.0.gff3](http://courtyard.gi.ucsc.edu/~mhauknes/T2T/t2t_Y/annotation_set/CHM13.v2.0.gff3)
+       - [ENSEMBL](http://ftp.ebi.ac.uk/pub/databases/ensembl/hprc/y1_freeze/GCA_009914755.4/)
+       - RefSeq - TBA
+     - 1:1 Liftover GRCh38 <-> T2T-CHM13v2.0, see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/v1_nflo_description.html)
+       - GRCh38  -> T2T-CHM13v2.0: [grch38-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.chain)
+       - GRCh38 <-  T2T-CHM13v2.0: [chm13v2-grch38.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-grch38.chain)
+       - Alignment [grch38-chm13v2.paf](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.paf)
+     - 1:1 Liftover hg19 <-> T2T-CHM13v2.0
+       - hg19  -> T2T-CHM13v2.0[hg19-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/hg19-chm13v2.chain)
+       - hg19 <-  T2T-CHM13v2.0[chm13v2-hg19.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-hg19.chain)
+       - Alignment [hg19-chm13v2.paf](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/hg19-chm13v2.paf)
+     - Resources
+       - [ClinVar 20220313](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/chm13v2.0_ClinVar20220313.vcf.gz), see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/ClinVar.html)
+       - [GWAS v1.0](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/chm13v2.0_GWASv1.0rsids_e100_r2022-03-08.vcf.gz), see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/GWAS.html)
+       - [dbSNP build 155](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/chm13v2.0_dbSNPv155.vcf.gz), see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/dbSNP.html)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Assembly draft v1.1</a> (md5: 1cab2b2776005cdf339ec9f283ba2c70)
       - Annotation from <a href="https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit">CAT</a> and <a href="https://github.com/agshumate/Liftoff">Liftoff</a> 
          - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.1.gene_annotation.v4.gff3.gz">annotation gff3 file</a> (md5: 14865ece7fe6367b8e2b06776a3d522f)
