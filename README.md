@@ -28,7 +28,17 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 # Assembly releases
 ### v2.0
-Changes from v1.1 include the addition of a finished ChrY from the <a href="https://www.nist.gov/programs-projects/genome-bottle">GIAB</a> HG002 sample, sequenced both by <a href="https://github.com/genome-in-a-bottle/giab_data_indexes">GIAB</a> and <a href="https://humanpangenome.org/hg002/">HPRC</a>. Available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4">NCBI</a>.
+Changes from v1.1 include the addition of a finished ChrY from the <a href="https://www.nist.gov/programs-projects/genome-bottle">GIAB</a> HG002 sample, sequenced both by <a href="https://github.com/genome-in-a-bottle/giab_data_indexes">GIAB</a> and <a href="https://humanpangenome.org/hg002/">HPRC</a>. Analysis set for mapping based research is available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/) with a [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
+* [chm13v2.0.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz): T2T-CHM13v2.0 assembly with sequences soft-masked using the repeat models discovered by the T2T team. Sequence names are converted to chr*. chrY in
+   this file was assembled from sample HG002/NA24385. The original sequence accession numbers are shown in the FASTA header.
+ * [chm13v2.0_noY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_noY.fa.gz): excluding the Y chromosome. This file only contains
+   sequences derived from the CHM13 cell line.
+ * [chm13v2.0_PAR.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_PAR.bed): pseudoautosomal regions (PARs)
+ * [chm13v2.0_maskedY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY.fa.gz): PARs on chrY hard masked to "N"
+ * [chm13v2.0_maskedY.rCRS.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz): PARs on chrY hard masked to "N" and mitochodrion
+   replaced with rCRS (AC:NC_012920.1)
+
+This genome is also available at [NCBI (GCA_009914755.4)](https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4).
 
 ### v1.1
 <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Complete T2T reconstruction of a human genome</a>. Changes from v1.0 include filled rDNA gaps and improved polishing within telomeres. One rare heterozygous variant causing a premature stop codon was changed at chr9:134589924 to the more common allele. Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.3">NCBI</a>. Changes made from v1.0 to v1.1 are available as a [VCF](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_patch.vcf.gz).
