@@ -152,14 +152,14 @@ We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp 
 Read ids broken out by sequencing location are available for <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
 
 ### rel8 (genome DNA)
-rel 8 is the full dataset as of 2020/10/01. All data was re-called using Guppy 5.0.7
+rel8 is the full dataset as of 2020/10/01. All data was re-called using Guppy 5.0.7
 #### Downloads
 
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/reads.fastq.gz">Guppy 5.0.7</a> (md5: 39262716285ad6efb1f39d374f57dd4e)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/sequencing_summary.txt.gz">Guppy sequencing summary</a> (md5: 419e5591baa29ceaeeede47f6fb0a04b)
 
 ### rel7 (genome DNA)
-rel 7 is the full dataset as of 2020/10/01. All data was re-called using Bonito v0.3.1.
+rel7 is the full dataset as of 2020/10/01. All data was re-called using Bonito v0.3.1.
 
 #### Downloads
 
