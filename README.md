@@ -490,6 +490,8 @@ Approximately 50x of data was generated on a NovaSeq instrument. Based on the su
 
 Approximately 430x of data was generated using the Saphyr instrument and the DLE-1 enzyme. There are 15.2 M molecules with an N50 molecule length of 115.9 kbp and a max of 2.3 Mbp (2 M molecules > 150 kbp, N50 218 kbp). The assembly of the molecules is 2.97 Gbp in size with 255 contigs and an NG50 of 59.6 Mbp.
 
+The BNX file was produced from the CHM13 cell line and does not include the Y chromosome. Due to certain sites in the genome not containing restrictions sites, the BNX data has gaps and is not telomere to telomere. The cmap was generated from the BNX file using Bionano's software package known as bionano-solve. The cmap file therefore also has gaps and does not include Y chromosome data. However, if needed, bionano has a tool that can convert the complete T2T sequence (FASTA file) into a format comatible with data output from the sapphyr instrument (CMAP File). The name of this tool is "in silico digestion" as described in bionano's documentation here: https://bionanogenomics.com/wp-content/uploads/2018/04/30205-Guidelines-for-Running-Bionano-Solve-Pipeline-on-Command-Line.pdf. The CMAP resulting from converting the FASTA file would be truly complete (telomere to telomere for all chromosomes including Y).
+
 #### Downloads
 
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/bionano/chm13_Saphyr_DLE1.bnx.gz">BNX</a> (md5: 59a7a5583e900e1e5cecb08a34b5b0dc)
