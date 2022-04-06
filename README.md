@@ -17,7 +17,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 7. Wagner J, et al. [Curated variation benchmarks for challenging medically relevant autosomal genes](https://doi.org/10.1038/s41587-021-01158-1). Nat Biotechnol, 2022.
 8. McCartney AM, Shafin K, Alonge M, et al. [Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies](https://doi.org/10.1038/s41592-022-01440-3). Nat Methods, 2022.
 9. Formenti G, Rhie A, et al. [Merfin: improved variant filtering, assembly evaluation and polishing via k-mer validation](https://doi.org/10.1101/2021.07.16.452324). Nat Methods, 2022.
-10. Jain C, et al. [A long read mapping method for highly repetitive reference sequences](https://doi.org/10.1101/2020.11.01.363887). bioRxiv, 2021.
+10. Jain C, et al. [Long-read mapping to repetitive reference sequences using Winnowmap2](https://doi.org/10.1038/s41592-022-01457-8). Nat Methods, 2022.
 
 
 ### Earlier citations:
