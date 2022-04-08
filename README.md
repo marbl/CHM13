@@ -18,6 +18,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 8. McCartney AM, Shafin K, Alonge M, et al. [Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies](https://doi.org/10.1038/s41592-022-01440-3). Nat Methods, 2022.
 9. Formenti G, Rhie A, et al. [Merfin: improved variant filtering, assembly evaluation and polishing via k-mer validation](https://doi.org/10.1101/2021.07.16.452324). Nat Methods, 2022.
 10. Jain C, et al. [Long-read mapping to repetitive reference sequences using Winnowmap2](https://doi.org/10.1038/s41592-022-01457-8). Nat Methods, 2022.
+11. Altemose N, Maslan A, Smith OK et al. [DiMeLo-seq: a long-read, single-molecule method for mapping protein–DNA interactions genome wide](https://doi.org/10.1038/s41592-022-01475-6). Nat Methods, 2022.
 
 
 ### Earlier citations:
