@@ -38,6 +38,7 @@ Changes from v1.1 include the addition of a finished ChrY from the <a href="http
  * [chm13v2.0_maskedY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY.fa.gz): PARs on chrY hard masked to "N"
  * [chm13v2.0_maskedY.rCRS.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz): PARs on chrY hard masked to "N" and mitochodrion
    replaced with rCRS (AC:NC_012920.1)
+ * [chm13v2.0_catLiftoff.protein.fa.gz](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz): CAT/Liftoff annotated protein sequences
 
 This genome is also available at [NCBI (GCA_009914755.4)](https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4) and at [UCSC](https://genome.ucsc.edu/h/GCA_009914755.4). Note that even though the UCSC browser shows the Genbank accessions as sequence names on the browser itself, it can load annotations in BED/bigBed/BAM/CRAM/bigWig and other formats or search using the "chr1/2/etc" names.
 
