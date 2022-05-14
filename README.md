@@ -38,7 +38,9 @@ Changes from v1.1 include the addition of a finished ChrY from the <a href="http
  * [chm13v2.0_maskedY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY.fa.gz): PARs on chrY hard masked to "N"
  * [chm13v2.0_maskedY.rCRS.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz): PARs on chrY hard masked to "N" and mitochodrion
    replaced with rCRS (AC:NC_012920.1)
- * [chm13v2.0_catLiftoff.protein.fa.gz](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz): CAT/Liftoff protein conding translated transcripts.
+ * [chm13v2.0_catLiftoff.protein.fa.gz](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz): CAT/Liftoff protein coding translated transcripts. Note, these are transcripts not genes (IDs like LOFF_T not LOFF_G) so you have to search it by transcript ID.
+ * [chm13v2.0.cen-mask.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.cen_mask.bed): Centromeric satellite masking bed file.
+
 
 This genome is also available at [NCBI (GCA_009914755.4)](https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4) and at [UCSC](https://genome.ucsc.edu/h/GCA_009914755.4). Note that even though the UCSC browser shows the Genbank accessions as sequence names on the browser itself, it can load annotations in BED/bigBed/BAM/CRAM/bigWig and other formats or search using the "chr1/2/etc" names.
 
@@ -69,7 +71,7 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 ## Downloads
    - [Assembly v2.0](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz) (md5:eab64eb60815bc25fa73224e03b1b1d8) and [analysis set](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
      - Annotation
-       - CAT and Liftoff [CHM13.v2.0.gff3](http://courtyard.gi.ucsc.edu/~mhauknes/T2T/t2t_Y/annotation_set/CHM13.v2.0.gff3)
+       - CAT and Liftoff [CHM13.v2.0.gff3](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.gene_annotation.gff3)
        - [ENSEMBL](http://ftp.ebi.ac.uk/pub/databases/ensembl/hprc/y1_freeze/GCA_009914755.4/)
        - [RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/9606/110/GCF_009914755.1_T2T-CHM13v2.0/GCF_009914755.1_T2T-CHM13v2.0_genomic.gff.gz)
      - 1:1 Liftover GRCh38 <-> T2T-CHM13v2.0, see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/v1_nflo_description.html)
