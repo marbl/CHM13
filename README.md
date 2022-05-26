@@ -74,6 +74,7 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
        - CAT and Liftoff [CHM13.v2.0.gff3](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.gene_annotation.gff3)
        - [ENSEMBL](http://ftp.ebi.ac.uk/pub/databases/ensembl/hprc/y1_freeze/GCA_009914755.4/)
        - [RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/9606/110/GCF_009914755.1_T2T-CHM13v2.0/GCF_009914755.1_T2T-CHM13v2.0_genomic.gff.gz)
+       - [JHU RefSeq Liftoff](https://ccb.jhu.edu/T2T.shtml)
      - 1:1 Liftover GRCh38 <-> T2T-CHM13v2.0, see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/v1_nflo_description.html)
        - GRCh38  -> T2T-CHM13v2.0: [grch38-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.chain)
        - GRCh38 <-  T2T-CHM13v2.0: [chm13v2-grch38.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-grch38.chain)
