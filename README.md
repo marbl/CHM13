@@ -71,7 +71,8 @@ Consensus quality exceeds Q60. Mitochondrial sequence DNA included. Centers of t
 ## Downloads
    - [Assembly v2.0](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz) (md5:eab64eb60815bc25fa73224e03b1b1d8) and [analysis set](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
      - Annotation
-       - CAT and Liftoff [CHM13.v2.0.gff3](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.gene_annotation.gff3)
+       - [GENCODEv35 CAT/Liftoff](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.gene_annotation.gff3)
+         - [Sorted GFF](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_GENCODEv35_CAT_Liftoff.vep.gff3.gz) and [TABIX index](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_GENCODEv35_CAT_Liftoff.vep.gff3.gz.tbi)
        - [ENSEMBL](http://ftp.ebi.ac.uk/pub/databases/ensembl/hprc/y1_freeze/GCA_009914755.4/)
        - [RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/9606/110/GCF_009914755.1_T2T-CHM13v2.0/)
        - [JHU RefSeq Liftoff](https://ccb.jhu.edu/T2T.shtml)
