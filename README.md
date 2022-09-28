@@ -30,7 +30,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 # Assembly releases
 ### v2.0
-Changes from v1.1 include the addition of a finished ChrY from the <a href="https://www.nist.gov/programs-projects/genome-bottle">GIAB</a> HG002 sample, sequenced both by <a href="https://github.com/genome-in-a-bottle/giab_data_indexes">GIAB</a> and <a href="https://humanpangenome.org/hg002/">HPRC</a>. Analysis sets for mapping based research is available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/) with a [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
+Changes from v1.1 include the addition of a finished ChrY from the [GIAB](https://www.nist.gov/programs-projects/genome-bottle) HG002 sample, sequenced both by [GIAB](https://github.com/genome-in-a-bottle/giab_data_indexes) and [HPRC](https://humanpangenome.org/hg002/). Analysis sets for mapping based research is available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/) with a [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
 * [chm13v2.0.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz): T2T-CHM13v2.0 assembly with sequences soft-masked using the repeat models discovered by the T2T team. Sequence names are converted to chr*. chrY in
    this file was assembled from sample HG002/NA24385. The original sequence accession numbers are shown in the FASTA header.
  * [chm13v2.0_noY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_noY.fa.gz): excluding the Y chromosome. This file only contains only sequences derived from the CHM13 cell line. If you are benchmarking assemblies of CHM13 use this file.
@@ -40,9 +40,13 @@ Changes from v1.1 include the addition of a finished ChrY from the <a href="http
    replaced with rCRS (AC:NC_012920.1)
  * [chm13v2.0_catLiftoff.protein.fa.gz](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz): CAT/Liftoff protein coding translated transcripts. Note, these are transcripts not genes (IDs like LOFF_T not LOFF_G) so you have to search it by transcript ID.
  * [chm13v2.0.cen-mask.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.cen_mask.bed): Centromeric satellite masking bed file.
+ * [chm13v2.0_censat_v2.0.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_censat_v2.0.bed): A more comprehensive centromere/satellite repeat annotation.
 
 
 This genome is also available at [NCBI (GCA_009914755.4)](https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.4) and at [UCSC](https://genome.ucsc.edu/h/GCA_009914755.4). Note that even though the UCSC browser shows the Genbank accessions as sequence names on the browser itself, it can load annotations in BED/bigBed/BAM/CRAM/bigWig and other formats or search using the "chr1/2/etc" names.
+
+
+* Sep. 28 2022 update: all analysis-set fa.gz files have been re-compressed with bgzip. Index files are available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/). Updated md5 also available in the [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
 
 ### v1.1
 <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz">Complete T2T reconstruction of a human genome</a>. Changes from v1.0 include filled rDNA gaps and improved polishing within telomeres. One rare heterozygous variant causing a premature stop codon was changed at chr9:134589924 to the more common allele. Also available at <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_009914755.3">NCBI</a>. Changes made from v1.0 to v1.1 are available as a [VCF](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/changes/v1.0_to_v1.1/v1.0_patch.vcf.gz).
