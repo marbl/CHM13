@@ -462,7 +462,7 @@ The raw fast5 data, without basecalls, is available for completeness. The data i
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition230.tgz">Partition 230</a> (md5: ef20895ee39928e8c77e57be3f11afe0)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition231.tgz">Partition 231</a> (md5: ccec880307a9c9999aa7d468df4911c5)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition232.tgz">Partition 232</a> (md5: 81917bd7ce37628b5b7438dc531147ff)
-   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition233-234.tgz">Partition 233-234</a> (md5: 798f496e2c086dccdb7f62db866c1525)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition233-234.tgz">Partition 233-234</a> (md5: a78f496e2c086dccdb7f62db866c1525)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition235.tgz">Partition 235</a> (md5: 28da4a29c963879ea6af14fd7ea47313)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition236.tgz">Partition 236</a> (md5: af43d8d1e1420531c33c8f63012a5582)
    - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition237.tgz">Partition 237</a> (md5: 1cb0cfc3a263f331eb45fb47082d1f15)
