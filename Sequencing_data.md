@@ -1,0 +1,392 @@
+# Sequencing Data
+
+## HiFi Data
+A total of 100 Gbp of data (32.4x coverage) in HiFi 20 kbp libraries (used for v0.9-v1.1 assemblies) is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=SRX789768*+CHM13). An additional 76 Gbp of data (24.4x coverage) is available in HiFi 10 kbp libraries at [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX5633451/). The raw subreads for the 20 kbp libraries are available below.
+
+### raw subreads (genome DNA) (NOTE: there are the individual raw subreads NOT HiFi reads. Most users will want to download the HiFi reads the links above).
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190803_042216.subreads.bam">m64062_190803_042216 aka SRR11292121</a> (md5: 2d0ad55219b0df9b3d2de08e678e5504)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190803_042216.subreads.bam.pbi">m64062_190803_042216 aka SRR11292121 index</a> (md5: 87ab91aa1bad393d33d4cda03c6c375c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190804_172951.subreads.bam">m64062_190804_172951 aka SRR11292123</a> (md5: 26c2a3592678acfa10c46063b4276079)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190804_172951.subreads.bam.pbi">m64062_190804_172951 aka SRR11292123 index</a> (md5: c504880737ff3b50fbfdde00cca731db)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190806_063919.subreads.bam">m64062_190806_063919 aka SRR11292120</a> (md5: 2ff780371484d6471625d1d08e6d2bdb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190806_063919.subreads.bam.pbi">m64062_190806_063919 aka SRR11292120 index</a> (md5: d24bd26ee375ca6d5a077f26a0602941)
+
+## Oxford Nanopore Data
+Nanopore sequencing was performed using Josh Quick's [ultra-long read (UL) protocol](https://www.protocols.io/view/ultra-long-read-sequencing-protocol-for-rad004-mrxc57n) and modifications as described in  [The structure, function, and evolution of a complete human chromosome 8](https://doi.org/10.1038/s41586-021-03420-7).
+
+We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp and there are 219 Gbp bases in reads >50 kbp (71x). The longest full-length mapping read is 1.3 Mbp. Sequencing data was generated from three lines of CHM13 (NHGRI, UW, UCD), which all originate from the original line established by Urvashi Surti. Only the NHGRI line was karyotyped and confirmed to be stable prior to sequencing. For the NHGRI line, NHGRI (PI: Phillippy) and University of Nottingham (PI: Loose) contributed approximately 140 flowcells of UL data using Quick's ultra-long protocol; 199 Gbp (64x, 1.4 Gbp/flowcell). The read N50 is 71 kbp and there are 128 Gbp of data in reads >50 kbp (41x). For the UW line, University of Washington (PI: Eichler) contibuted 106 flowcells of UL data using a new UL protocol developed by Glennis Logsdon; 69 Gbp (22x, 0.6 Gbp/flowcell). The read N50 is 133 kbp and there are 57 Gbp of data in reads >50 kbp (18x). For the UCD line, UCDavis (PI: Dennis) contributed two PromethION cells using a ligation prep; 114 Gbp (37x, 57 Gbp/flowcell). The read N50 is 36 kbp and there are 25 Gbp of data in reads >50 kbp (8x).
+
+Read ids broken out by sequencing location are available for <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
+
+### rel8 (genome DNA)
+rel8 is the full dataset as of 2020/10/01. All data was re-called using Guppy 5.0.7
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/reads.fastq.gz">Guppy 5.0.7</a> (md5: 39262716285ad6efb1f39d374f57dd4e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel8-guppy-5.0.7/sequencing_summary.txt.gz">Guppy sequencing summary</a> (md5: 419e5591baa29ceaeeede47f6fb0a04b)
+
+### rel7 (genome DNA)
+rel7 is the full dataset as of 2020/10/01. All data was re-called using Bonito v0.3.1.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel7/rel7.fastq.gz">Bonito 0.3.1</a> (md5: d56fb4b4e4a7165c8fa7315795d9d419)
+
+### rel6 (genomic DNA)
+
+rel6 is the full dataset as of 2020/10/01, adding UW data from partitions 232-243. All data was re-called using Guppy 3.6.0 with the HAC model.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel6/rel6.fastq.gz">Guppy flip-flop 3.6.0</a> (md5: b6f9b702d5dd1a3407b5343fb17391b2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel6/rel6.sequencing_summary.txt.gz">Guppy sequencing summary</a> (md5: 9e2bb5a1fa57dfb5a743ee30d64b8613)
+
+
+### rel5 (genomic DNA)
+
+rel5 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.6.0 with the HAC model.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel5/rel5.fastq.gz">Guppy flip-flop 3.6.0</a> (md5: fe4941f1f4c5d5b551c50faf368735fb)
+
+### rel4 (genomic DNA)
+
+rel4 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.4.5 with the HAC model. 
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel4/rel4.fastq.gz">Guppy flip-flop 3.4.5</a> (md5: dad0b6caa4a2b03f57387c1bd8107b2f)
+
+### rel3 (genomic DNA)
+
+rel3 is the full dataset as of 2019/09/01, all data was re-called using Guppy 3.1.5 with the HAC model. We have provided mappings both to our current draft assembly and to the <a href="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>. 
+
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/rel3.fastq.gz">Guppy flip-flop 3.1.5</a> (md5: 92026d97a898c2f5b65074048a1caabf)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/canu.contigs.fasta.gz">Canu v1.9 rel3 assembly (no curation or polishing, resolves 314 BACs at Q24)</a> (md5: a05a864eb90578f0fe36e0d774395075)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/flye.contigs.fasta.gz">Flye v2.5 rel3 assembly (no curation or polishing, resolves 253 BACs at Q22)</a> (md5: 80428824ecc3ec41cde9301aa3a986d0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/shasta.contigs.fasta.gz">Shasta rel3 assembly (no curation or polishing, resolves 176 BACs at Q28)</a> (md5: 4da86a6b4af5fa5c35407d7cf39c1bac)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/rel3_to_v0.7.cram">Guppy flip-flop mapped to asm v0.7 with minimap2</a> (md5: 02b8966c447f2cc9dc1ae211930fd4e3)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/rel3_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: a18c3c9e9f3fa638ff348ebba0f883da)
+
+### rel2 (genomic DNA)
+
+rel2 is the same data as rel1 but recalled with the latest generation callers (Guppy flip-flop 2.3.1). We have provided mappings both to our current draft assembly and to the <a href="https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa">GRCh38 with decoys</a> in cram format, using <a href="https://github.com/lh3/minimap2">minimap2</a>.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel2/rel2.fastq.gz">Guppy flip-flop 2.3.1</a> (md5: 7e3f4ded02d500a3db0c76c84cdc42b9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel2/asm.contigs.fasta.gz">Canu v1.8 rel2 assembly (no curation or polishing, resolves 287 BACs at Q20)</a> (md5: 778ec406528e153e9b0cb74b4a4caade)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel2/rel2_to_v0.6.cram">Guppy flip-flop mapped to asm v0.6 with minimap2</a> (md5: 20afc508915207c5082e6f3c427739d2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel2/rel2_to_GRCh38.cram">Guppy flip-flop mapped to GRCh38 with decoys with minimap2</a> (md5: 1a4888cafbc935a21c17f449b4802438)
+
+### rel1 (genomic DNA)
+
+The full dataset as of 2019/01/09. These basecalls were generated on-instrument and use older versions of Guppy (depending on when the flowcell ran on the instrument).
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel1/rel1.fastq.gz">Guppy on-instrument</a> (md5: c2cb74601eb657df21b7d25980908288)
+
+### fast5 data
+
+The raw fast5 data, without basecalls, is available for completeness. The data is grouped into 243 sets.
+
+   - Partitions 1-94 were sequenced at [NHGRI](https://www.nisc.nih.gov)
+   - Partitions 95-98 were sequenced at [University of Nottingham](https://www.nottingham.ac.uk/deepseq/)
+   - Partitions 99-144 were sequenced at [NHGRI](https://www.nisc.nih.gov)
+   - Partitions 145-224 were sequenced at [University of Washington](https://eichlerlab.gs.washington.edu/index.html)
+   - Partitions 225-226 were sequenced at [UC Davis](https://dnatech.genomecenter.ucdavis.edu)
+   - Partitions 227-231 were sequenced at [NHGRI](https://www.nisc.nih.gov)
+   - Partitions 232-243 were sequenced at [University of Washington](https://eichlerlab.gs.washington.edu/index.html)
+
+   - Note that when the tgz were groupped and uploaded, some inadvertently included more than a single partition. These are denoted as partition ranges in the downloads (e.g. 145-149). 
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition001.tgz">Partition 001</a> (md5: c837460c50a4446fc8320c95dc88f204)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition002.tgz">Partition 002</a> (md5: 05ceccf4256d248aaec2a4c61e58c26c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition003.tgz">Partition 003</a> (md5: 879e3a6391e5da5f943fa46b92decd47)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition004.tgz">Partition 004</a> (md5: 600bfa46c741eeff0064b1d8040b9349)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition005.tgz">Partition 005</a> (md5: 1a72beff4b2e4556c5033176ed1cd109)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition006.tgz">Partition 006</a> (md5: fcd6f8ceeac2034eddaa33cedf6d0010)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition007.tgz">Partition 007</a> (md5: 0d44cb41a4888b55bce2cba7e70107ba)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition008.tgz">Partition 008</a> (md5: 52242770505ac9aca1070e0b926c4769)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition009.tgz">Partition 009</a> (md5: 4e85e63a4ebf8efb2f97fdcee46e5737)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition010.tgz">Partition 010</a> (md5: e495530dd8a68b7bc9864ab89a4ef52f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition011.tgz">Partition 011</a> (md5: 3b57e6256d0162d83a281e74157134e0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition012.tgz">Partition 012</a> (md5: 735a0a03c6bec1e0ed417baa0c2d7db2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition013.tgz">Partition 013</a> (md5: 90c51a9ab06266b2a980bcc16d3d3960)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition014.tgz">Partition 014</a> (md5: 645ea0b4edc2bfc71c708a53d5b0d92b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition015.tgz">Partition 015</a> (md5: 24f456adb4c1c6579fe34f07c82179e7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition016.tgz">Partition 016</a> (md5: 6b72ddda5a7a1c10b50f3026914519ec)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition017.tgz">Partition 017</a> (md5: 14e7b918b28ecc784b68569454fa27d9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition018.tgz">Partition 018</a> (md5: d5f7c9b1d88cf48298f6cbbb2a2a45a9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition019.tgz">Partition 019</a> (md5: cefa121a627dfcf9a1dfb117065a7264)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition020.tgz">Partition 020</a> (md5: ca0729b28cd4cccc81eba670c6e86689)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition021.tgz">Partition 021</a> (md5: 51a873a2019f2b091ab035cc3f074bb8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition022.tgz">Partition 022</a> (md5: e9235f052d651b4ba1fdaaa06ad134d0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition023.tgz">Partition 023</a> (md5: 82735ac6bde6dd3064ed23ec89befbe5)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition024.tgz">Partition 024</a> (md5: e1e05425f9823e50650bd2cf1efa41c6)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition025.tgz">Partition 025</a> (md5: f8efb23a5e77b12f46bce73b2ddba36a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition026.tgz">Partition 026</a> (md5: 829f32786514b092da9e4fb8701da037)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition027.tgz">Partition 027</a> (md5: 15ebb086d975583386c1d0e49fbca932)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition028.tgz">Partition 028</a> (md5: 202f0507d424b70b60b785d5131d28a4)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition029.tgz">Partition 029</a> (md5: 3c5b3522dd741214554f84d8645cdf20)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition030.tgz">Partition 030</a> (md5: 6e54914ef12c9b7757496b5867028067)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition031.tgz">Partition 031</a> (md5: e9501d4d0fd38d64c2ad1c81f8d1a0e3)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition032.tgz">Partition 032</a> (md5: 1f3ff51da0e87c2009bef8256b930f0b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition033.tgz">Partition 033</a> (md5: 76a518084b021db82fd5dab7540e88bb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition034.tgz">Partition 034</a> (md5: fd9f4dcfaeb89134a4f700a5346c16fa)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition035.tgz">Partition 035</a> (md5: dbdd53ba61d67a7f61405ae39d2b931b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition036.tgz">Partition 036</a> (md5: c243b8f64bde0051fe104e8baaecf09b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition037.tgz">Partition 037</a> (md5: aafa1d558881b2b4856fde3af0cbb9b2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition038.tgz">Partition 038</a> (md5: d2e39e42eaf6a0a63d0542435590dd88)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition039.tgz">Partition 039</a> (md5: ef48d5c46f19de02fb6f6646726c95de)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition040.tgz">Partition 040</a> (md5: 17d7d34b45e14b2a79fc30e5c5084315)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition041.tgz">Partition 041</a> (md5: eb6a16d0b37d538bdbf90c3bfcc0f098)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition042.tgz">Partition 042</a> (md5: 7dbf87d75c901463b2e4e4afdc4adb52)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition043.tgz">Partition 043</a> (md5: 97c071a1d0a170e9f4809f6cdc459a6b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition044.tgz">Partition 044</a> (md5: 27dc707435a2c98fc7201ccefec68c9d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition045.tgz">Partition 045</a> (md5: 54ce28e1e1b54ab9fd8dd072711acd30)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition046.tgz">Partition 046</a> (md5: b174c7826fc399312fad331660745e55)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition047.tgz">Partition 047</a> (md5: 2b6ce400051fce5d2de09fd8fd461fc8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition048.tgz">Partition 048</a> (md5: 81415b29f2b6a605473af6d3529758b1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition049.tgz">Partition 049</a> (md5: ffc9182d8a9ad9752b6571d3d2f2b69d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition050.tgz">Partition 050</a> (md5: 790281fcf0512a798b6f0e75b14620be)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition051.tgz">Partition 051</a> (md5: 4fc5dc17819a3727e5cedaa89550ef9f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition052.tgz">Partition 052</a> (md5: d33a70e926dee0e67cf1a75d50ee1249)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition053.tgz">Partition 053</a> (md5: 04e641cfc8bbe7233773fc38add3fbd2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition054.tgz">Partition 054</a> (md5: 958b62e07349258d93ee3e089c6f91ff)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition055.tgz">Partition 055</a> (md5: 55f74869ce3303277edf2225b4796fa0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition056.tgz">Partition 056</a> (md5: 29b205c649f66e3d44ea9f598b492bc2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition057.tgz">Partition 057</a> (md5: 7336b91e333ae912b4cfc6e366570c54)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition058.tgz">Partition 058</a> (md5: 2d992482005a2523f710487f2c0a0a31)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition059.tgz">Partition 059</a> (md5: 3b45c205982796a90aa0f40955c4937b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition060.tgz">Partition 060</a> (md5: f085ae6a4818c44d03a6f5adfc445699)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition061.tgz">Partition 061</a> (md5: 1c5a3a0ed8b53a930535b9d34e6a0667)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition062.tgz">Partition 062</a> (md5: fbfd4ffb7cf8fca4d613d0ec67d3104c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition063.tgz">Partition 063</a> (md5: 9ddf7a9fe7e9cf8ceb02b8debed41fcc)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition064.tgz">Partition 064</a> (md5: ee3ac8080a19d4a6ab3af84074d03d7a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition065.tgz">Partition 065</a> (md5: d94a12692d399c44612cab8b2aea8164)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition066.tgz">Partition 066</a> (md5: a9f3bfa69bbc248b33f99f42827331eb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition067.tgz">Partition 067</a> (md5: 6c9d4b38edc6f78521f3cfdd8edc571c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition068.tgz">Partition 068</a> (md5: 76a29683bfad7c4a0b8a0bdbbbd6fd49)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition069.tgz">Partition 069</a> (md5: f924667636c528d56e46aa92db0a182d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition070.tgz">Partition 070</a> (md5: f813b0a4b2a4a2353c7deb539f16f286)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition071.tgz">Partition 071</a> (md5: fa56e2524ea2cc57e79f692466375b83)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition072.tgz">Partition 072</a> (md5: 23b1df220d55ab9df2735c74849a53c9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition073.tgz">Partition 073</a> (md5: 70839cbc61d3d8af7fafcb7ba8f96461)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition074.tgz">Partition 074</a> (md5: 109b91ceda32ab0f8b9edb24cb35fb23)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition075.tgz">Partition 075</a> (md5: 53c466af09a3a119df3255189091bcda)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition076.tgz">Partition 076</a> (md5: 22ad2327db64767e34378508afe60706)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition077.tgz">Partition 077</a> (md5: 64c7c1702e3476137c54ebc0c07d970e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition078.tgz">Partition 078</a> (md5: 6e2048a8a2ceb36bb679455e0af81230)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition079.tgz">Partition 079</a> (md5: 45717c24fe844f2605be81bd8e15d856)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition080.tgz">Partition 080</a> (md5: 1ac20637828f0f3115f1c0f289e006aa)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition081.tgz">Partition 081</a> (md5: e7b5e584de5f2cbda1d53ec2f6e2668e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition082.tgz">Partition 082</a> (md5: aad214d168ad3a59488dfac71fcedc22)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition083.tgz">Partition 083</a> (md5: d557dee3b08c61d540fd6a00689341fa)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition084.tgz">Partition 084</a> (md5: cc2b4676515b988dd4f64724e49c3304)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition085.tgz">Partition 085</a> (md5: 34e6154991e5d5c641e22a529c5f06e1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition086.tgz">Partition 086</a> (md5: 2f9ff4371f32c3a33ea081ad8825437e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition087.tgz">Partition 087</a> (md5: 945504e89ba54cdab032eac63985d216)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition088.tgz">Partition 088</a> (md5: 46a8ba05cb12b268c7f7ce04575d24da)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition089.tgz">Partition 089</a> (md5: 5fd0219c9c99aa08ce07bb35e647144c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition090.tgz">Partition 090</a> (md5: da0e3f19f81c99a89bcff7e8f74dc6cb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition091.tgz">Partition 091</a> (md5: c11b11f3386d47dd33acc3cba7f44fb2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition092.tgz">Partition 092</a> (md5: 87dfa60ae9308214b43aa7075ddd9f44)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition093.tgz">Partition 093</a> (md5: 6eced035881d3e804bea7103d26c042e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition094.tgz">Partition 094</a> (md5: 59ebbc64994779244e5f7431c54b819e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition095.tgz">Partition 095</a> (md5: 4de3c1f5163357a256847c1082379df3)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition096.tgz">Partition 096</a> (md5: cf16e88c803b82b052651171490d6d5a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition097.tgz">Partition 097</a> (md5: bcf0e6944fb937bdda07a68530e63f01)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition098.tgz">Partition 098</a> (md5: 22c785691baddf3bddf3b0c77080adf2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition099.tgz">Partition 099</a> (md5: 9fa25adca355abe3161060393b40de45)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition100.tgz">Partition 100</a> (md5: 12c7eabb92e0c9fe7ac4fcfa6f4a2795)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition101.tgz">Partition 101</a> (md5: 020bae3d98d9c5b2df8faca3f8e46ead)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition102.tgz">Partition 102</a> (md5: dd4d7a7c6d682271bb9d76cc8cd2f284)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition103.tgz">Partition 103</a> (md5: 8ea12825fced78d35d6e427c02db33db)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition104.tgz">Partition 104</a> (md5: 2137c06f010f11aa150a3e431fb502b3)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition105.tgz">Partition 105</a> (md5: 1c0e69e080eb86fc4f46bf91780f7dbe)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition106.tgz">Partition 106</a> (md5: c5acaa0cf6786fa2420fe938c564f743)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition107.tgz">Partition 107</a> (md5: dadc81bebb317516b57329cf8a79dd8d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition108.tgz">Partition 108</a> (md5: 020d60709c8892d8abc24f2cb3abadd1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition109.tgz">Partition 109</a> (md5: 1b3463481d8203bf617705d1becb86d5)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition110.tgz">Partition 110</a> (md5: e04fdfdd42d9e6b3f1cc10d54a0ea738)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition111.tgz">Partition 111</a> (md5: ee6b441916a8170fc3c59958180c9af0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition112.tgz">Partition 112</a> (md5: 5eeef61c820be9c7826226d0b5eaadfb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition113.tgz">Partition 113</a> (md5: 3b8d107886b0b0f2c7a046e96bcf6693)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition114.tgz">Partition 114</a> (md5: cbfbe53039a2196d8c043de6af850e2a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition115.tgz">Partition 115</a> (md5: 69448ff84cac02071991de26dd60e9e6)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition116.tgz">Partition 116</a> (md5: 128875eca40e2ac2ef52653724afd579)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition117.tgz">Partition 117</a> (md5: 8c9b722f6f5cf25b26573a1f1d8807f1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition118.tgz">Partition 118</a> (md5: d0ecc4997ed5b2e9db2d7418b55bf017)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition119.tgz">Partition 119</a> (md5: 899dec0634e97a2a1bdc73ee375b7c84)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition120.tgz">Partition 120</a> (md5: b17d8467e54d28f3a0748f8e0d86305b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition121.tgz">Partition 121</a> (md5: 3d25e5440f17ad324d3b9176c31443dd)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition122.tgz">Partition 122</a> (md5: 3d89e66d0558babc5b42488e9d7e9b09)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition123.tgz">Partition 123</a> (md5: 5a48a1424b00933956a21582a66b4ef9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition124.tgz">Partition 124</a> (md5: 02ca9ed9b6570a8e5fd8f862adc1ae9d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition125.tgz">Partition 125</a> (md5: 7ed0458200f8499ee0529ae691460de0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition126.tgz">Partition 126</a> (md5: 9f641a474a8eed64b658e48d0004cde0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition127.tgz">Partition 127</a> (md5: a28c15458c2df4455d35c3d1b6f9d0f8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition128.tgz">Partition 128</a> (md5: cd1f20b2f3dc7a6d293e2dcc30f3d70d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition129.tgz">Partition 129</a> (md5: b269d0ad7ee3879ce92d10aa0b817f6a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition130.tgz">Partition 130</a> (md5: 8179021a84f457f545265d80b061640d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition131.tgz">Partition 131</a> (md5: 1104dd5a0c900d9862017b1196d9109f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition132.tgz">Partition 132</a> (md5: 936403b29d7022f19e988caa5e4885c9)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition133.tgz">Partition 133</a> (md5: 97b539127ed11106ef75df3759391e92)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition134.tgz">Partition 134</a> (md5: a7409210b3f3ac08b14b5833b8dc97f4)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition135.tgz">Partition 135</a> (md5: c266e484108dd9beb2ae23bc6f17cedb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition136.tgz">Partition 136</a> (md5: 3047a843da59b3020669116228961b3d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition137.tgz">Partition 137</a> (md5: 83a41de61e307a4d184ec94a6d3dc5c7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition138.tgz">Partition 138</a> (md5: 8c0ae1c83c4a968218a7193836613b48)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition139.tgz">Partition 139</a> (md5: 5a69a9b10a0b509ad18a4531901cb128)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition140.tgz">Partition 140</a> (md5: a6eda1f81e1d528b9bffd07c9e701ff6)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition141.tgz">Partition 141</a> (md5: 871020ffbc86e0abacc92174d00f97d6)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition142.tgz">Partition 142</a> (md5: 0fa6572159ec40ebda3400316bceb036)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition143.tgz">Partition 143</a> (md5: 1275a1587f52129a2eb31b1c4c0ca10c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition144.tgz">Partition 144</a> (md5: cd983796c2c94d4dd0b19af8b134ef1f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition145-148.tgz">Partition 145-148</a> (md5: d07b77482f5ae167fa8806f51ac0db3c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition149-150.tgz">Partition 149-150</a> (md5: 0d045ac58956492f98b1937faae88d06)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition151-152.tgz">Partition 151-152</a> (md5: 54fdf8a38733d0fe01add1c4695a7d89)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition153-154.tgz">Partition 153-154</a> (md5: 4b8b18a9a1f12047e0309365aecc4832)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition155-156.tgz">Partition 155-157</a> (md5: dec98ff1d34ab863b5bf2a0356001089)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition158.tgz">Partition 158</a> (md5: 0d9df61f2eaa0b723fca237034ce74b6)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition159.tgz">Partition 159</a> (md5: 5acd09c60776e515831d1c2f547da1e1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition160.tgz">Partition 160</a> (md5: 46142bd5341d2c5fae08a479dda540a8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition161.tgz">Partition 161</a> (md5: 15fe73bc61b67762a6d8d99ac695bae7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition162.tgz">Partition 162</a> (md5: b20122665bcf330c9305b000a759c0e3)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition163.tgz">Partition 163</a> (md5: 98f1933ee44988d0d60edd065aea745f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition164-166.tgz">Partition 164-166</a> (md5: 27330b662904fe3921ec1fbe9a5e0a39)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition167-168.tgz">Partition 167-168</a> (md5: 5517cdbaf3d851fa5787711eaca8192b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition169-171.tgz">Partition 169-171</a> (md5: 14524b5fa02d41bd2c983322a4321099)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition172.tgz">Partition 172</a> (md5: 2a2c642990854cc005ebbde51dbec56a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition173.tgz">Partition 173</a> (md5: 32adcc1d1e9d122d2cffab3648cbd1b7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition174.tgz">Partition 174</a> (md5: 52905ca54875717a3e3d4cdb5955df46)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition175.tgz">Partition 175</a> (md5: 11c847f4e695cab036315ae2428cf80b)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition176.tgz">Partition 176</a> (md5: dcb226eef40a0bef2fd2d5d26f13b88c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition177.tgz">Partition 177</a> (md5: 0192f5f9618f119f7cba8f58f2f1fe68)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition178.tgz">Partition 178</a> (md5: bf9fc0582a6f1f5e4b419f6dd3ecc949)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition179.tgz">Partition 179</a> (md5: dd6a42f110d1be4041d1fa23403070c2)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition180.tgz">Partition 180</a> (md5: 817ea0768e2275a6240aefba5e9402b8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition181.tgz">Partition 181</a> (md5: fdb66d1d5ec39338673e857c2aa69a87)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition182.tgz">Partition 182</a> (md5: e5bf39ba1d99e5337b294ae428a2c72d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition183.tgz">Partition 183</a> (md5: d8de690d6db614c887c1799c9abfba89)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition184.tgz">Partition 184</a> (md5: adf710282e35b7cd1f0ea77fcdc32c5a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition185.tgz">Partition 185</a> (md5: 4ee185a2889430f63f1960219a68ed78)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition186.tgz">Partition 186</a> (md5: e51dd1c3db3348ce6fa1d089bfbaaa26)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition187.tgz">Partition 187</a> (md5: c3b6b5476e3982bcc19b3026aa9786b4)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition188.tgz">Partition 188</a> (md5: 2eae48d373c6cb85e6b652a7db224f7f)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition189.tgz">Partition 189</a> (md5: 80719a5ce718ac1a7935ce5ca90e1ac7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition190.tgz">Partition 190</a> (md5: f8ae9a7954e6ade74bfbbc10772b5b77)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition191.tgz">Partition 191</a> (md5: cf16a4d22b1f1e7c86b68bb51789e473)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition192.tgz">Partition 192</a> (md5: a797cbb62e49135fbc152ec8497d5370)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition193.tgz">Partition 193</a> (md5: 33e754109a7882fd7c068416859a0695)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition194.tgz">Partition 194</a> (md5: 7ff95e524daa1d937c3e65213ba901b7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition195.tgz">Partition 195</a> (md5: 00c8789114fbaed7fb5f884fdca96346)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition196.tgz">Partition 196</a> (md5: e307840ffdbddaf7237a65efa8c85188)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition197.tgz">Partition 197</a> (md5: 9dcee9a1d3d576599d31dda1c8b38ff8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition198-199.tgz">Partition 198-199</a> (md5: b57b2927e330af13858cfb6ff8ed13bd)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition200-201.tgz">Partition 200-201</a> (md5: e4aa7c85f2c1513a0669bf85bab92832)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition202.tgz">Partition 202</a> (md5: c48d830ee1710f23d125301172954e35)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition203.tgz">Partition 203</a> (md5: d60a220607d465dc3f6cf2779efb1262)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition204.tgz">Partition 204</a> (md5: 6fc8204a147898ba1d93945a78b33be8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition205-206.tgz">Partition 205-206</a> (md5: 95b0fa324b0341668ba55675bed664d1)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition207.tgz">Partition 207</a> (md5: 37d370034bcd5503baf1fda12b184def)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition208.tgz">Partition 208</a> (md5: 1922135013379a366119367e780915ff)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition209-210.tgz">Partition 209-210</a> (md5: b60425e6503e5a3618d0019189aa6a17)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition211-212.tgz">Partition 211-212</a> (md5: 316efb5752cbedca3593a704f83178ce)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition213.tgz">Partition 213</a> (md5: 102ce625ade4851c6ef77350c1d66bba)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition214.tgz">Partition 214</a> (md5: b56af7f1bb450d861d9eecfc681e3f09)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition215.tgz">Partition 215</a> (md5: 6524dbc2d7f6b8bc65c30ff68d400e00)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition216.tgz">Partition 216</a> (md5: c24fdefe4aa9a563f06d33367264e57d)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition217.tgz">Partition 217</a> (md5: 14e79f6d50ce4d2b91364ac176bb9170)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition218.tgz">Partition 218</a> (md5: 5b71e4c287589290c699d78597eb0fe0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition219-220.tgz">Partition 219-220</a> (md5: 06220779ab619d8f6ec927b5a53f5bce)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition221.tgz">Partition 221</a> (md5: d07c41c9dbf5f6fe7c0745c4323d4a36)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition222.tgz">Partition 222</a> (md5: 5fb46b69c2192b8c77a6505ccf0a3499)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition223.tgz">Partition 223</a> (md5: 036b920192151a51a561792cb3257ecf)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition224.tgz">Partition 224</a> (md5: a0a16ac031a6bafdba6c299282f5275a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition225.tgz">Partition 225</a> (md5: 378aebc21351b13ba643bb83645ae860)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition226.tgz">Partition 226</a> (md5: d99c0ef473cec223269f1c91a6d99bc7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition227.tgz">Partition 227</a> (md5: 0d9a266167d7b1429866dbbff76427fb)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition228.tgz">Partition 228</a> (md5: 246d9aebae66f06767e0177e1d26a735)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition229.tgz">Partition 229</a> (md5: 14934a026120af86908254d0c336a144)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition230.tgz">Partition 230</a> (md5: ef20895ee39928e8c77e57be3f11afe0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition231.tgz">Partition 231</a> (md5: ccec880307a9c9999aa7d468df4911c5)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition232.tgz">Partition 232</a> (md5: 81917bd7ce37628b5b7438dc531147ff)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition233-234.tgz">Partition 233-234</a> (md5: a78f496e2c086dccdb7f62db866c1525)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition235.tgz">Partition 235</a> (md5: 28da4a29c963879ea6af14fd7ea47313)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition236.tgz">Partition 236</a> (md5: af43d8d1e1420531c33c8f63012a5582)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition237.tgz">Partition 237</a> (md5: 1cb0cfc3a263f331eb45fb47082d1f15)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition238.tgz">Partition 238</a> (md5: b7df2be60ead2d63e3358cda9a532b12)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition239.tgz">Partition 239</a> (md5: d62b1dc41ff27bb6c090467c0b390363)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition240.tgz">Partition 240</a> (md5: 4a870d135d93ec1e834ceba7c203061e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition241.tgz">Partition 241</a> (md5: 1135fbd234a5b635d6155b8f400bc8ab)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition242.tgz">Partition 242</a> (md5: d4a08ac562906f07f282e078e3db4c5e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/fast5/partition243.tgz">Partition 243</a> (md5: 066517834bf644bcb0e6f76e34213dac)
+
+## Illumina PCRFree Data
+A total of >300 Gbp of data (105x coverage) in PCR-Free Illumina libraries is available from [NCBI](https://www.ncbi.nlm.nih.gov/sra/SRX1009644%5Baccn%5D).
+
+## 10X Genomics Data
+### Raw fastq files
+
+Approximately 50x of data was generated on a NovaSeq instrument. Based on the summary output of <a href="https://support.10xgenomics.com/de-novo-assembly/software/overview/latest/welcome">Supernova</a>, there are 1.2 billion reads with 41x effective coverage. The mean molecule length is 130 kbp and an N50 of 864 reads per barcode.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S13_L002_I1_001.fastq.gz">CHM13_prep5_S13_L002_I1_001</a> (md5: 84af4586ca9f78060d5802b36cdd9e8a)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S13_L002_R1_001.fastq.gz">CHM13_prep5_S13_L002_R1_001</a> (md5: 231633e0cf2fbdeba732dc7ad6233fa0)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S13_L002_R2_001.fastq.gz">CHM13_prep5_S13_L002_R2_001</a> (md5: 386febfc3fc760e11e315e69310ed3d8)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S14_L002_I1_001.fastq.gz">CHM13_prep5_S14_L002_I1_001</a> (md5: f0b7628e90dfaf2f702ec613c7b61ca7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S14_L002_R1_001.fastq.gz">CHM13_prep5_S14_L002_R1_001</a> (md5: 86afbc7a41ea1c81657bf1ca64d1178c)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S14_L002_R2_001.fastq.gz">CHM13_prep5_S14_L002_R2_001</a> (md5: 3dfbe58b5ae715213e20614837dcf3b7)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S15_L002_I1_001.fastq.gz">CHM13_prep5_S15_L002_I1_001</a> (md5: ee34f03c765787ea069050d8eaac1de4)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S15_L002_R1_001.fastq.gz">CHM13_prep5_S15_L002_R1_001</a> (md5: 73edcb56dd18d7b7b2705b4db7b4efc5)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S15_L002_R2_001.fastq.gz">CHM13_prep5_S15_L002_R2_001</a> (md5: a0de8e5bc127203129e4e1437b3e6aaa)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S16_L002_I1_001.fastq.gz">CHM13_prep5_S16_L002_I1_001</a> (md5: 42db246f7e5725a7b6ff3f5f5aedfd6e)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S16_L002_R1_001.fastq.gz">CHM13_prep5_S16_L002_R1_001</a> (md5: 3d3db7eccaf388fbcd901cbc6ad47630)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/10x/CHM13_prep5_S16_L002_R2_001.fastq.gz">CHM13_prep5_S16_L002_R2_001</a> (md5: 9dfcc17398a7acd906212a09ab4c8903)
+
+## BioNano DLS Data
+
+Approximately 430x of data was generated using the Saphyr instrument and the DLE-1 enzyme. There are 15.2 M molecules with an N50 molecule length of 115.9 kbp and a max of 2.3 Mbp (2 M molecules > 150 kbp, N50 218 kbp). The assembly of the molecules is 2.97 Gbp in size with 255 contigs and an NG50 of 59.6 Mbp.
+
+The BNX file was produced from the CHM13 cell line and therefore does not include the Y chromosome. Due to a low frequency of restrictions sites in some regions of the genome, the BNX data has gaps and is not telomere to telomere. The CMAP was generated from the BNX file and therefore also has gaps and does not include Y chromosome. However, if needed, bionano has a tool that can convert the complete T2T sequence (FASTA file) into a format comatible with data output from the sapphyr instrument (CMAP File). The name of this tool is "in silico digestion" as described in bionano's documentation here: https://bionanogenomics.com/wp-content/uploads/2018/04/30205-Guidelines-for-Running-Bionano-Solve-Pipeline-on-Command-Line.pdf. The CMAP resulting from converting the FASTA file would be truly complete (telomere to telomere for all chromosomes including Y).
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/bionano/chm13_Saphyr_DLE1.bnx.gz">BNX</a> (md5: 59a7a5583e900e1e5cecb08a34b5b0dc)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/bionano/chm13_Saphyr_DLE1.cmap.gz">CMAP</a> (md5: cf1a6fbcf006a26673499b9297664fdb)
+
+## Hi-C Data
+
+A library was generated using an Arima genomics kit and sequenced to approximately 40x on an Illumina HiSeq X.
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/arima/CHM13.rep1_lane1_R1.fastq.gz">CHM13.rep1_lane1_R1.fastq.gz</a> (md5: 41d2f26eb1f958723e28e32ca471b680)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/arima/CHM13.rep1_lane1_R2.fastq.gz">CHM13.rep1_lane1_R2.fastq.gz</a> (md5: 2747aaf1d128182bcaa151098e0abe74)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/arima/CHM13.rep2_lane1_R1.fastq.gz">CHM13.rep2_lane1_R1.fastq.gz</a> (md5: 26ce58141bb25b4931512ec4cf176f64)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/arima/CHM13.rep2_lane1_R2.fastq.gz">CHM13.rep2_lane1_R2.fastq.gz</a> (md5: 77b71bd1067c6e4e908a9aaa05f4bd73)
+
+## RNA-seq data
+
+Two separate poly-A prep libraries were generated at UC Davis and 2x150 bp RNA-seq reads generated on an Illumina NovaSeq (~25 million PE reads each).
+
+#### Downloads
+
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/rnaseq/CHM13_1_S182_L002_R1_001.fastq.gz">CHM13_1_S182_L002_R1_001.fastq.gz</a> (md5: 4bbbc3bea152273d8d609c54d66c6d82)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/rnaseq/CHM13_1_S182_L002_R2_001.fastq.gz">CHM13_1_S182_L002_R2_001.fastq.gz</a> (md5: 3c9445f5370fbf85e5af8d8c44ad3379)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/rnaseq/CHM13_2_S183_L002_R1_001.fastq.gz">CHM13_2_S183_L002_R1_001.fastq.gz</a> (md5: 61ef6c5bb88286af497f8dcc8d32a5dc)
+   - <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/rnaseq/CHM13_2_S183_L002_R2_001.fastq.gz">CHM13_2_S183_L002_R2_001.fastq.gz</a> (md5: 5c49547f57f2b5fd795b8c87cdfbdb6f)
+
+## Previously generated PacBio data
+
+The PacBio data (both CLR and HiFi) was previously generated and is available from the <a href="https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=269593">SRA</a>. The list of cells used for arrow polishing the v0.7 assembly are listed <a href="https://raw.githubusercontent.com/nanopore-wgs-consortium/CHM13/master/pbP6Cells">here</a>.
