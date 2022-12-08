@@ -137,7 +137,10 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
  We would appreciate if you would acknowledge and cite the "Telomere-to-Telomere" (T2T) Consortium for the creation of this data.
  More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/) and a list of related citations is available below:
 
-### The complete sequence of a human genome and companion papers:
+### T2T-CHM13v2.0, datasets released along the v2.0 and the T2T-Y chromosome
+* Rhie A, Nurk S, Cechova M, Hoyt SJ, Taylor DJ, et al. [The complete sequence of a human Y chromosome](https://doi.org/10.1101/2022.12.01.518724). bioRxiv, 2022.
+
+### The complete sequence of a human genome and companion papers (T2T-CHM13v0.9-v1.1):
 1. Nurk S, Koren S, Rhie A, Rautiainen M, et al. [The complete sequence of a human genome](https://doi.org/10.1126/science.abj6987). Science, 2022.
 2. Vollger MR, et al. [Segmental duplications and their variation in a complete human genome](https://doi.org/10.1126/science.abj6965). Science, 2022.
 3. Gershman A, et al. [Epigenetic Patterns in a Complete Human Genome](https://doi.org/10.1126/science.abj5089). Science, 2022.
