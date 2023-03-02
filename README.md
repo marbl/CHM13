@@ -84,6 +84,7 @@ Analysis set for using T2T-CHM13v2.0 as a reference for mapping based research i
 
 ### Variant calls
   - [1000 Genomes Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/), recalled on T2T-CHM13v2.0. Now available for all chromosomes, for the entire 3,202 samples or the unrelated 2504 samples.
+  - [1000 Genomes Project - Phased](https://github.com/JosephLalli/phasing_T2T) with SHAPEIT5, using the above variant calls.
   - [Simons Genome Diversity Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/SGDP/chm13v2.0/), recalled on T2T-CHM13v2.0.
   - [gnomAD v3.1.2](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/Homo_sapiens-GCA_009914755.4-2022_10-gnomad.vcf.gz) from [FTP](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/):
   This is a lifted over version from GRCh38, annotated with predicted molecular consequence and transcript-specific variant deleteriousness scores from PolyPhen-2 and SIFT using Ensembl Variant Effect Predictor.
