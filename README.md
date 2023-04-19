@@ -17,7 +17,7 @@ A UCSC browser is available for [v2.0](https://genome.ucsc.edu/h/GCA_009914755.4
 
 ## Latest assembly release
 
-### T2T-CHM13v2.0
+### T2T-CHM13v2.0 (T2T-CHM13+Y)
 [Complete T2T reconstruction of a human genome with Y](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz).
 Changes from v1.1 is the addition of a finished chromosome Y from the [GIAB](https://www.nist.gov/programs-projects/genome-bottle) HG002/NA24385 sample,
  sequenced both by [GIAB](https://github.com/genome-in-a-bottle/giab_data_indexes) and [HPRC](https://humanpangenome.org/hg002/).
@@ -34,7 +34,7 @@ Previous assembly releases are available below:
 The sequencing dataset generated for CHM13 has been moved to [this page](Sequencing_data.md).
 
 ### Analysis set
-Analysis set for using T2T-CHM13v2.0 as a reference for mapping based research is available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
+Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping based research is available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
  with a [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
  - [chm13v2.0.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz):
   T2T-CHM13v2.0 assembly with sequences soft-masked using the repeat models discovered by the T2T team.
