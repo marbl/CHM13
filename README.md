@@ -61,7 +61,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
    - [Protein coding translated transcripts](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz) from CAT/Liftoff v1 annotation.
    Note, these are transcripts not genes and only searchable by transcript ID (IDs like LOFF_T not LOFF_G).
  - [NCBI RefSeqv110](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/914/755/GCF_009914755.1_T2T-CHM13v2.0/GCF_009914755.1_T2T-CHM13v2.0_genomic.gtf.gz) from [FTP](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/914/755/GCF_009914755.1_T2T-CHM13v2.0/)
- - [EBI GENCODEv38 r2](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/geneset/2022_07/Homo_sapiens-GCA_009914755.4-2022_07-genes.gff3.gz) from [HPRC Projects](https://projects.ensembl.org/hprc/)
+ - [EBI GENCODEv38 r2](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/geneset/2022_07/Homo_sapiens-GCA_009914755.4-2022_07-genes.gff3.gz) from [HPRC Projects](https://projects.ensembl.org/hprc/)
 
 ### Repeat annotation
  - [Cytobands](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_cytobands_allchrs.bed)
