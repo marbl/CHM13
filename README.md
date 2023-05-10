@@ -52,7 +52,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
 > with updated md5s in the [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
 
 ### Gene annotation
- - [JHU RefSeqv110 + Liftoff v4](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v4.gff3): 
+ - [JHU RefSeqv110 + Liftoff v5](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v5.gff3): 
  This contains _curated_ annotations of the ampliconic genes on the Y chromosome, correcting annotation errors in GENCODEv35 CAT/Liftoff and RefSeqv110 annotation.
  Additional copies found in T2T-Y were annotated to the closest available gene in RefSeq, allowing multiple genes to have the same common name.
  This file has been modified to correct special character issues from the original file. More description is available [here](https://ccb.jhu.edu/T2T.shtml).
