@@ -83,9 +83,9 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
  - [HG002 5mC CpG and other methylation from ONT and HiFi](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/regulation/)
 
 ### Variant calls
-  - [1000 Genomes Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/), recalled on T2T-CHM13v2.0. Now available for all chromosomes, for the entire 3,202 samples or the unrelated 2504 samples.
+  - [1000 Genomes Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/), recalled on T2T-CHM13v2.0. Now available for all chromosomes, for the entire 3,202 samples or the unrelated 2504 samples. Reference sets, bam, and vcf files are also available on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY).
   - [1000 Genomes Project - Phased](https://github.com/JosephLalli/phasing_T2T) with SHAPEIT5, using the above variant calls.
-  - [Simons Genome Diversity Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/SGDP/chm13v2.0/), recalled on T2T-CHM13v2.0.
+  - [Simons Genome Diversity Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/SGDP/chm13v2.0/), recalled on T2T-CHM13v2.0. Reference sets, bam, and vcf files are also available on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY).
   - [gnomAD v3.1.2](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/Homo_sapiens-GCA_009914755.4-2022_10-gnomad.vcf.gz) from [FTP](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/):
   This is a lifted over version from GRCh38, annotated with predicted molecular consequence and transcript-specific variant deleteriousness scores from PolyPhen-2 and SIFT using Ensembl Variant Effect Predictor.
   - [Short-Read Accessibility Mask](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/accessibility/combined_mask.bed.gz), with the three masks used to make the combined_mask are available [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/accessibility/). See [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/accessibility/chm13v2.0.short-read_accessibility_mask.html) 
@@ -185,3 +185,4 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
     * v1.1 assembly and related files. May 7 2021. Assembly update.
     * v2.0 assembly and related files. Dec 2 2022. Assembly and annotation update.
     * 1KGP variant calls for all chromosomes. Jan. 3 2023. Annotation update.
+    * 1KGP and SGDP bam / vcf released publicly on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY). May 23, 2023. Data Update.
