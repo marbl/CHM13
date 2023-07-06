@@ -52,7 +52,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
 > with updated md5s in the [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
 
 ### Gene annotation
- - [JHU RefSeqv110 + Liftoff v5](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v5.gff3): 
+ - [JHU RefSeqv110 + Liftoff v5](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v5.1.gff3): 
  This contains _curated_ annotations of the ampliconic genes on the Y chromosome, correcting annotation errors in GENCODEv35 CAT/Liftoff and RefSeqv110 annotation.
  Additional copies found in T2T-Y were annotated to the closest available gene in RefSeq, allowing multiple genes to have the same common name.
  This file has been modified to correct special character issues from the original file. More description is available [here](https://ccb.jhu.edu/T2T.shtml).
@@ -84,6 +84,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
 
 ### Variant calls
   - [1000 Genomes Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/), recalled on T2T-CHM13v2.0. Now available for all chromosomes, for the entire 3,202 samples or the unrelated 2504 samples. Reference sets, bam, and vcf files are also available on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY).
+  - [1000 Genomes Project - Allele Frequency by Population](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/unrelated_samples_2504/allele_freq/), of the unrelated samples, further excluding 14 individuals discovered as first and second degree relatives ([more details here](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/variants/1000_Genomes_Project/chm13v2.0/unrelated_samples_2504/allele_freq/README.txt)).
   - [1000 Genomes Project - Phased](https://github.com/JosephLalli/phasing_T2T) with SHAPEIT5, using the above variant calls.
   - [Simons Genome Diversity Project](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/SGDP/chm13v2.0/), recalled on T2T-CHM13v2.0. Reference sets, bam, and vcf files are also available on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY).
   - [gnomAD v3.1.2](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/Homo_sapiens-GCA_009914755.4-2022_10-gnomad.vcf.gz) from [FTP](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/):
@@ -186,3 +187,5 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
     * v2.0 assembly and related files. Dec 2 2022. Assembly and annotation update.
     * 1KGP variant calls for all chromosomes. Jan. 3 2023. Annotation update.
     * 1KGP and SGDP bam / vcf released publicly on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY). May 23, 2023. Data Update.
+    * 1KGP AF release. Jul 6 2023. Annotation update.
+    * Curated RefSeq/Liftoff v5.1 release. Jul 6 2023. Annotation update.
