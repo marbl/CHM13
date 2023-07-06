@@ -52,10 +52,10 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
 > with updated md5s in the [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
 
 ### Gene annotation
- - [JHU RefSeqv110 + Liftoff v5](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v5.1.gff3): 
+ - [JHU RefSeqv110 + Liftoff v5.1](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RefSeq_Liftoff_v5.1.gff3): 
  This contains _curated_ annotations of the ampliconic genes on the Y chromosome, correcting annotation errors in GENCODEv35 CAT/Liftoff and RefSeqv110 annotation.
  Additional copies found in T2T-Y were annotated to the closest available gene in RefSeq, allowing multiple genes to have the same common name.
- This file has been modified to correct special character issues from the original file. More description is available [here](https://ccb.jhu.edu/T2T.shtml).
+ This file has been modified to correct special character issues from the original file. More description is available [here](https://ccb.jhu.edu/T2T.shtml). Update log from v5 to v5.1 is available [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/README_chm13v2.0_RefSeq_Liftoff.txt).
  - [UCSC GENCODEv35 CAT/Liftoff v2](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v2.0.gene_annotation.gff3)
    - CAT/Liftoff v1 annotation for VEP in [Sorted GFF](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_GENCODEv35_CAT_Liftoff.vep.gff3.gz) and [TABIX index](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_GENCODEv35_CAT_Liftoff.vep.gff3.gz.tbi)
    - [Protein coding translated transcripts](https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/genes/catLiftOffGenesV1.protein.fa.gz) from CAT/Liftoff v1 annotation.
