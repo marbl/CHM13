@@ -45,7 +45,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
  - [chm13v2.0_PAR.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_PAR.bed): pseudoautosomal regions (PARs)
  - [chm13v2.0_maskedY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY.fa.gz): PARs on chrY hard masked to "N"
  - [chm13v2.0_maskedY.rCRS.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz):
-  PARs on chrY hard masked to "N" and mitochodrion replaced with rCRS (AC:NC_012920.1)
+  PARs on chrY hard masked to "N" and mitochondrion replaced with rCRS (AC:NC_012920.1)
 
 > Sep. 28 2022 update: all analysis-set fa.gz files have been re-compressed with bgzip.
 > Index files are available at [aws](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/analysis_set/)
