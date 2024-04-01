@@ -95,16 +95,23 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
   - [dbSNP build 155](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/chm13v2.0_dbSNPv155.vcf.gz), lifted over from GRCh38. See [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/liftover/dbSNP.html)
   - [Variants disappearing in GRCh38-Y coordinates, v0.005](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/variants/GRCh38/variants_disappearing/20220324_v0.005_HG002XYvsGRCh38/preliminary-draft-small-variant-benchmark-files/GRCh38_T2T-XY-v2.7_dipcall-z2k.vcf.gz) when using T2T-Y as a reference, more details are [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/variants/GRCh38/variants_disappearing/20220324_v0.005_HG002XYvsGRCh38/).
 
-
 ### Liftover resources
  - 1:1 Liftover GRCh38 <-> T2T-CHM13v2.0, see [description](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/v1_nflo_description.html)
-   - GRCh38  -> T2T-CHM13v2.0: [grch38-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.chain)
-   - GRCh38 <-  T2T-CHM13v2.0: [chm13v2-grch38.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-grch38.chain)
+   - GRCh38/hg38 -> T2T-CHM13v2.0: [grch38-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.chain)
+   - GRCh38/hg38 <- T2T-CHM13v2.0: [chm13v2-grch38.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-grch38.chain)
    - Alignment [grch38-chm13v2.paf](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/grch38-chm13v2.paf)
  - 1:1 Liftover hg19 <-> T2T-CHM13v2.0
-   - hg19  -> T2T-CHM13v2.0[hg19-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/hg19-chm13v2.chain)
-   - hg19 <-  T2T-CHM13v2.0[chm13v2-hg19.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-hg19.chain)
+   - GRCh37/hg19 -> T2T-CHM13v2.0: [hg19-chm13v2.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/hg19-chm13v2.chain)
+   - GRCh37/hg19 <- T2T-CHM13v2.0: [chm13v2-hg19.chain](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-hg19.chain)
    - Alignment [hg19-chm13v2.paf](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/hg19-chm13v2.paf)
+
+### Non-syntenic region
+ - Regions non-syntenic (unique) compared to GRCh38 and GRCh37 from above chains
+   - GRCh38/hg38: [chm13v2-unique_to_hg38.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg38.bed)
+   - GRCh37/hg19: [chm13v2-unique_to_hg19.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg19.bed)
+ - Regions non-syntenic from T2T-CHM13v1.0 and T2T-CHM13v1.1 plus hg38Y by [Aganezov et al. Science, 2022](https://doi.org/10.1126/science.abl3533)
+   - T2T-CHM13v1.0: [chm13.draft_v1.0_plus38Y.no_snyteny_1Mbp.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/synteny/chm13.draft_v1.0_plus38Y.no_snyteny_1Mbp.bed)
+   - T2T-CHM13v1.1: [chm13_v1.1_plus38Y.no_snyteny_1Mbp.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/synteny/chm13_v1.1_plus38Y.no_snyteny_1Mbp.bed)
 
 ## Notes on downloading files
 
