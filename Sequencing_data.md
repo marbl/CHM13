@@ -18,6 +18,12 @@ We sequenced a total of 390 Gbp of data (126x coverage). The read N50 is 58 kbp 
 
 Read ids broken out by sequencing location are available for <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/nhgri.ids.gz">NHGRI</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/unottingham.ids.gz">U of Nottingham</a>, <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/uwashington.ids.gz">UW</a>, and <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/nanopore/rel3/ids/ucd.ids.gz">UCD</a>.
 
+### Guppy 6 + BLOW5 (genome DNA)
+Thanks to <a href="https://github.com/hasindu2008">Hasindu Gamaarachchi</a> who contributed a <a href="https://github.com/hasindu2008/slow5tools">BLOW5</a>-formatted and basecalled sequences.
+#### Downloads
+   - <a href="https://www.ncbi.nlm.nih.gov/sra/SRX19312602%5Baccn%5D">BLOW5 raw data</a>
+   - <a href="https://www.ncbi.nlm.nih.gov/sra/SRX19306105%5Baccn%5D">Guppy 6.3.7 HAC</a>
+
 ### rel8 (genome DNA)
 rel8 is the full dataset as of 2020/10/01. All data was re-called using Guppy 5.0.7
 #### Downloads
