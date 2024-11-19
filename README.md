@@ -68,7 +68,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
  - Segmental Duplications, v2022-03-11 in [simple](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_SD.bed) and [full](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_SD.full.bed) bed format
  - [Cen/Sat v2.1](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_censat_v2.1.bed):
   A more comprehensive centromere/satellite repeat annotation. (Re colored to be consistent with the primates Cen/Sat tracks)
- - RepeatMasker v4.1.2p1.2022Apr14 in [bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.bed) or [native out](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.out)
+ - RepeatMasker v4.1.2p1.2022Apr14 in [bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.bed) or [native out](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.out). Here is a great resource for building a custom [RepeatMasker library with new repeat models from the T2T genomes](https://github.com/jessicaStorer88/RepeatMasker_library_CHM13) and a walk through for running RepeatMasker.
  - [Composite Repeats, 2022DEC](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_composite-repeats_2022DEC.bed)
  - [New Satellites, 2022DEC](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_new-satellites_2022DEC.bed)
  - [chrXY sequence class, v1](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_chrXY_sequence_class_v1.bed)
@@ -196,3 +196,5 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
     * 1KGP and SGDP bam / vcf released publicly on [AnVIL_T2T_CHRY](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_T2T_CHRY). May 23, 2023. Data Update.
     * 1KGP AF release. Jul 6 2023. Annotation update.
     * Curated RefSeq/Liftoff v5.1 release. Jul 6 2023. Annotation update.
+    * Curated RefSeq/Liftoff v5.2 release. Aug 23 2024. Protein coding gene annotation update.
+    * Link page for custom RepeatMasker library with T2T repeats. Nov 19 2024.
