@@ -38,7 +38,7 @@ Analysis set for using T2T-CHM13v2.0 (T2T-CHM13+Y) as a reference for mapping ba
  with a [README](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/README.txt).
  - [chm13v2.0.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz):
   T2T-CHM13v2.0 assembly with sequences soft-masked using the repeat models discovered by the T2T team.
-   The original sequence accession numbers are shown in the FASTA header.
+   The original sequence accession numbers are shown in the FASTA header. _Important note: When mapping short-reads for variant calling, it is generally best to use a FASTA with Y PAR masked such as [chm13v2.0_maskedY.rCRS.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz)_.
  - [chm13v2.0_noY.fa.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_noY.fa.gz):
   excluding the Y chromosome. This file only contains sequences derived from the CHM13 cell line and is identical to T2T-CHM13v1.1.
   Use this file for benchmarking assemblies of CHM13.
