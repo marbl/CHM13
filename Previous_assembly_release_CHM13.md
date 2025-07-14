@@ -1,5 +1,8 @@
 # Previous assembly releases of T2T-CHM13
 
+## v2.0 - Latest
+ See [Downloads](https://github.com/marbl/CHM13/tree/master?tab=readme-ov-file#downloads).
+
 ## v1.1
 [Complete T2T reconstruction of a human genome](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13.draft_v1.1.fasta.gz).
  Changes from v1.0 include filled rDNA gaps and improved polishing within telomeres.
